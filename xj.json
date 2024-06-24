@@ -80,9 +80,9 @@
 	
 "parses":[
 {"name":"Json聚合","type":3,"url":"Demo"},
-{"name":纯净免费解析","type":0,"url":"https://tool.bitefu.net/video/?url="},
-{"name":冰豆解析","type":0,"url":"https://bd.jx.cn/?url="},
-{"name":阿怪解析","type":0,"url":"https://api.aag.moe/api/bzspjx?url="},
+{"name":"纯净免费解析","type":0,"url":"https://tool.bitefu.net/video/?url="},
+{"name":"冰豆解析","type":0,"url":"https://bd.jx.cn/?url="},
+{"name":"阿怪解析","type":0,"url":"https://api.aag.moe/api/bzspjx?url="},
 {"name":"夜幕解析","type":0,"url":"https://www.yemu.xyz/?url="},
 {"name":"嗨解析","type":0,"url":"https://t1.qlplayer.cyou/player/?url="},
 {"name":"虾米解析","type":0,"url":"https://jx.xmflv.com/?url="},
