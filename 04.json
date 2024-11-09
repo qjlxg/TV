@@ -28,15 +28,7 @@
 
 
 
-{"key":"电影101","name":"电影101","type":0,"api":"https://www.pgxdy.com/api/json.php","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影102","name":"电影102","type":0,"api":"https://www.feifei67.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影103","name":"电影103","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影104","name":"电影104","type":0,"api":"https://apihjzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影105","name":"电影105","type":0,"api":"https://apilj.com/api.php/provide/vod/at/json/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影106","name":"电影106","type":0,"api":"https://bttcj.com/inc/sapi.php","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影107","name":"电影107","type":0,"api":"https://wmcj8.com/inc/sapi.php","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影108","name":"电影108","type":0,"api":"https://mygzycj.com/api.php?ac=videolist","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影112","name":"电影112","type":0,"api":"https://jcspcj8.com/api?ac=videolist","searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"电影113","name":"电影113","type":0,"api":"https://cjmygzy.com/inc/sapi.php?ac=videolist","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影114","name":"电影114","type":0,"api":"https://zmcj88.com/sapi?ac=videolist","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影115","name":"电影115","type":0,"api":"https://llzxcj.com/inc/sck.php?ac=videolist","searchable":1,"quickSearch":1,"filterable":1},
