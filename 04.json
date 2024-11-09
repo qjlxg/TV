@@ -7,7 +7,6 @@
 "sites":[
 
 {"key":"电影2","name":"电影2","type":0,"api":"https://slapibf.com/index.php/vod","searchable":1,"quickSearch":1,"filterable":1},
-
 {"key":"电影4","name":"电影4","type":0,"api":"https://api.maozyapi.com/inc/apijson_vod.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影5","name":"电影5","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影6","name":"电影6","type":0,"api":"https://www.xrbsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
@@ -33,7 +32,6 @@
 {"key":"电影28","name":"电影28","type":0,"api":"https://caiji.semaozy.net/inc/api.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影29","name":"电影29","type":0,"api":"https://slapibf.com/index.php/vod/type/id/34.html","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影30","name":"电影30","type":0,"api":"http://lbapiby.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1},
-
 {"key":"电影32","name":"电影32","type":0,"api":"https://www.bxyy5.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影33","name":"电影33","type":0,"api":"https://hdmys1.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影34","name":"电影34","type":0,"api":"https://www.zzrhgg.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
@@ -136,13 +134,7 @@
 {"key":"电影186","name":"电影167","type":0,"api":"https://www.caiji05.com/home/cjapi/cfda/mc/vod/xml","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影188","name":"电影169","type":0,"api":"https://caiji.523zyw.com/inc/seacmsapi.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影1899","name":"电影170","type":0,"api":"https://apittzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影191","name":"电影172","type":0,"api":"https://www.leyuzyapi.com/inc/zyapimac.php","searchable":1,"quickSearch":1,"filterable":1},
-
-
-
-
-
-
+{"key":"电影191","name":"电影172","type":0,"api":"https://www.leyuzyapi.com/inc/zyapimac.php","searchable":1,"quickSearch":1,"filterable":1}
 ],
 
 "parses":[
