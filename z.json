@@ -11,7 +11,7 @@
 //https://ghproxy.net/https://github.com/FongMi/Release/raw/main/apk/release/mobile-python-armeabi_v7a.apk
 {
 "spider":"https://mirror.ghproxy.com/raw.githubusercontent.com/qjlxg2008/TV/main/spider.jar#https://ghproxy.net/raw.githubusercontent.com/qjlxg2008/TV/main/spider.jar",
-"lives":[{"name":"0","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/qjlxg2008/TV/main/list.txt","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
+"lives":[{"name":"0","type":0,"url":"https://iptv.228088.xyz/cn.m3u","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
 //测试中
