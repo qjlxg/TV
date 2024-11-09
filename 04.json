@@ -6,25 +6,18 @@
 
 "sites":[
 
-{"key":"电影2","name":"电影2","type":0,"api":"https://slapibf.com/index.php/vod","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影4","name":"电影4","type":0,"api":"https://api.maozyapi.com/inc/apijson_vod.php","searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"电影5","name":"电影5","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影6","name":"电影6","type":0,"api":"https://www.xrbsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影7","name":"电影7","type":0,"api":"https://www.gdlsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影8","name":"电影8","type":0,"api":"https://www.kxgav.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影11","name":"电影11","type":0,"api":"https://slapibf.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影12","name":"电影12","type":0,"api":"https://jkunzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影13","name":"电影13","type":0,"api":"https://apiyutu.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影14","name":"电影14","type":0,"api":"https://aosikazy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影15","name":"电影15","type":0,"api":"https://api.11bat.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影16","name":"电影16","type":0,"api":"https://www.caoliuzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影17","name":"电影17","type":0,"api":"https://Naixxzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影18","name":"电影18","type":0,"api":"https://www.heimuer.tv/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影19","name":"电影19","type":0,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影20","name":"电影20","type":0,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+
+
+
+
 {"key":"电影21","name":"电影21","type":0,"api":"https://apiyutu.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影22","name":"电影22","type":0,"api":"https://dadiapi.com/api.php","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"电影23","name":"电影23","type":0,"api":"https://xxavs.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"电影24","name":"电影24","type":0,"api":"https://api.11bat.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影25","name":"电影25","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"电影26","name":"电影26","type":0,"api":"https://slapibf.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
