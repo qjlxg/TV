@@ -3,9 +3,9 @@
 "lives":[{"name": "四川电信","type": 0,"url": "https://ghp.ci/https://github.com/qjlxg/Wa/raw/refs/heads/main/tv20241214.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},],
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
- {"key":"3904","name":"001","type":1,"api":"https://www.394tv.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
-{"key":"5407341","name":"002","type":1,"api":"http://540734621.xyz/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"7b556","name": "003","type": 0, "api":"https://taopianapi.com/cjapi/mc10/vod/xml.html","searchable": 0,"quickSearch": 0,"filterable":  0},
+{"key":"3904","name":"001","type":1,"api":"https://www.394tv.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
+{"key":"5407341","name":"002","type":1,"api":"http://540734621.xyz/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"7喜资源","name":"004","type":1,"api":"http://www.51zhuiju.cc//api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"app","name":"005","type":1,"api":"https://inmi.app/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"fsys","name":"006","type":1,"api":"https://fszy1.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
