@@ -48,7 +48,7 @@
 {"key":"新0资源","name":"185","type":1,"api":"https://movie.gsl99.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"熊猫影视", "name": "203","type":0, "api":"https://tvdb.top/api.php/provide/vod","searchable":0,"quickSearch":0,"filterable": 0},
 {"key":"忆梦","name":"206","type":1,"api":"http://anltv.cn/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
-{"key":"樱花m3u8资源","name":"190","type":1,"api":"https://m3u8.apiyhzy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1},
+{"key":"樱花m3u8资源","name":"190","type":1,"api":"https://m3u8.apiyhzy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable": 1}],
 
 
 
