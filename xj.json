@@ -32,7 +32,7 @@
 
 
 {"key":"极速资源","name":"200","type":1,"api":"https://jszyapi.com/api.php/provide/vod"},
-{"key":"加速","name": "314","type": 1,"api": "http://43.154.162.194/ruifenglb_api.php/v1.vod",},
+{"key":"加速","name": "314","type": 1,"api": "http://43.154.162.194/ruifenglb_api.php/v1.vod"},
 {"key":"金鹰2资源", "name": "196", "type":0, "api": "https://jyzy1.com/api.php/provide/vod"},
 
 {"key":"可可资源","name":"205","type":1,"api":"https://caiji.kekezyapi.com/api.php/provide/vod"},
