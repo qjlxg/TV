@@ -7,9 +7,9 @@
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
          
-{"key":"淘片2","name": "145 ","type": 1,"api":"https://taopianapi.com/cjapi/mc10/vod/xml.html","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},    
+{"key":"淘片2","name": "145 ","type": 1,"api":"https://taopianapi.com/cjapi/mc10/vod/xml.html","searchable":1,"changeable":1},    
 
-{"key":"淘片","name": "淘片 ","type": 1,"api":"https://taopianapi.com/cjapi/mc/vod/xml.html","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},    
+{"key":"淘片","name": "淘片 ","type": 1,"api":"https://taopianapi.com/cjapi/mc/vod/xml.html","searchable":1,"changeable":1},    
  {"key":"iqyi资源","name":"149","type":1,"api":"http://iqyi.xiaohuangrentv.com/api.php/provide/vod","searchable":1,"changeable":1},
  {"key":"享看资源","name":"160","type":1,"api":"https://xkanzy10.com/api.php/provide/vod","searchable":1,"changeable":1},
  {"key":"7喜资源","name":"163","type":1,"api":"http://www.51zhuiju.cc//api.php/provide/vod/","searchable":1,"changeable":1},
