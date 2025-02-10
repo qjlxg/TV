@@ -1,10 +1,11 @@
 {
 "spider":"https://mirror.ghproxy.com/raw.githubusercontent.com/qjlxg/TV/main/spider.jar",
-"lives":[{"name": "四川电信","type": 0,"url": "https://ghp.ci/https://github.com/qjlxg/Wa/raw/refs/heads/main/tv20241214.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},],
+"lives":[{"name": "四川电信","type": 0,"url": "https://ghp.ci/https://github.com/qjlxg/Wa/raw/refs/heads/main/tv20241214.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
 {"key":"7b556","name": "003","type": 0, "api":"https://taopianapi.com/cjapi/mc10/vod/xml.html","searchable":1,"quickSearch":1,"filterable": 1},
-{"key":"csp_XBiuNivodfans2","name":"✈泥视频 粉絲自建2(XB)","type":3,"api":"csp_XBPQ","jar":"./xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"hl-content-text\">&&</em>","分类url":"https://webdisk.nivodi.com/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html","分类": "電視劇$2#電影$1#動漫$48#綜藝$3#紀錄片$21"}},
+{"key":"csp_XBiuNivodfans2","name":"✈泥视频 粉絲自建2(XB)","type":3,"api":"csp_XBPQ","jar":"./xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"hl-content-text\">&&</em>","分类url":"https://webdisk.nivodi.com/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html","分类": "電視劇$2#電影$1#動漫$48#綜藝$3#紀錄片$21"}}],
+     
      
  
 
