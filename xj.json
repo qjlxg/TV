@@ -9,10 +9,10 @@
 {"key":"ysgc","name":"ysgc","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc.fun/vodshow/{cateId}--------{catePg}---.html"}, 
 {"key":"csp_xb_/sigudyy","name":"邵氏电影","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.okdy123.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"新视觉","name":"新视觉","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.6080yy4.com/vodshow/{cateId}--------{catePg}---.html"},
-{"key": "MeiJu69","name":"六九美剧","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.69mj.com/xgapp.php/v2/"},
-{"key":"394tv","name":"394tv","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.394tv.com/vodtype/{cateId}--------{catePg}---.html"},
-{"key":"酷影视","name":"酷影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
-{"key":"泥视频","name":"泥视频","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://webdisk.nivodi.com/index.php/vod/{cateId}--------{catePg}---.html"},
+
+{"key":"394tv","name":"394tv","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.wangfei.la/vod-show/{cateId}--------{catePg}---.html"},
+
+{"key":"泥视频","name":"泥视频","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ttmja.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"zhen","name":"zhen","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.zhenfanjixie.com/vodtype/{cateId}--------{catePg}---.html"},
 {"key":"csp_xb_dgfa","name":"95010","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.yoyys.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
 {"key":"csp_xb_pcfp","name":"95011","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.kqyy.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"},
