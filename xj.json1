@@ -1,5 +1,5 @@
 {
-"spider":"https://mirror.ghproxy.com/raw.githubusercontent.com/qjlxg/TV/main/spider.jar",
+"spider":"https://ghfast.top/raw.githubusercontent.com/qjlxg/TV/main/spider.jar",
 "lives":[{"name":"大田沟","type":0,"url":"https://ghp.ci/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
          {"name": "四川电信","type": 0,"url": "https://ghp.ci/https://github.com/qjlxg/Wa/raw/refs/heads/main/tv20241214.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "TVBOX多仓裤","type": 0,"url": "https://ghp.ci/https://github.com/dtankdempse/tubi-m3u/raw/refs/heads/main/tubi_playlist_us.m3u","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
