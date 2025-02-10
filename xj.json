@@ -12,6 +12,9 @@
 {"key":"新视觉","name":"新视觉","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ysmao.cc/vodtype/{cateId}--------{catePg}---.html"},
 {"key":"394tv","name":"394tv","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.wangfei.la/vod-show/{cateId}--------{catePg}---.html"},
 {"key":"95008","name":"95008","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://nkvod.me/show/{cateId}--------{catePg}---.html"},
+{"key":"95007","name":"95007","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.6080z.com/vodshow/{cateId}--------{catePg}---.html"},
+
+         
 {"key":"泥视频","name":"泥视频","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ttmja.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"zhen","name":"zhen","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.zhenfanjixie.com/vodtype/{cateId}--------{catePg}---.html"},
 {"key":"csp_xb_dgfa","name":"95010","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.yoyys.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
