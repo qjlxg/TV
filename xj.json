@@ -5,8 +5,8 @@
 "sites":[
 {"key":"7b556","name": "003","type": 0, "api":"https://taopianapi.com/cjapi/mc10/vod/xml.html","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"7556","name": "002","type": 0, "api":"https://webdisk.nivodi.com/index.php","searchable":1,"quickSearch":1,"filterable": 1},
-{"key":"csp_xb_gzy","name":"10512","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc.fun/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
-{"key":"csp_xb_gzy","name":"10513","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://webdisk.nivodi.com/index.php/vod/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
+{"key":"csp_xb_gzy","name":"513","type":3,"api":"https://webdisk.nivodi.com/index.php/vod/","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://webdisk.nivodi.com/index.php/vod/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
+{"key":"csp_xb_gzy","name":"512","type":3,"api":"https://www.ysgc.fun/vodshow/","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc.fun/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
 
   
 
