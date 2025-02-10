@@ -7,7 +7,7 @@
 {"key":"7556","name": "002","type": 0, "api":"https://webdisk.nivodi.com/index.php","searchable":1,"quickSearch":1,"filterable": 1},
 {"key":"csp_xb_gzy","name":"513","type":3,"api":"https://webdisk.nivodi.com/index.php/vod/","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://webdisk.nivodi.com/index.php/vod/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
 {"key":"csp_xb_gzy","name":"512","type":3,"api":"https://www.ysgc.fun/vodshow/","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc.fun/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"},
-
+{ "key": "在线之家", "name": "在线之家┃BPQ", "type": 3, "api": "csp_XBPQ", "ext": { "分类url":"https://www.ysgc.fun/vodshow/{cateId}-{area}-------{catePg}---{year}.html", "分类":"电影$1#美剧$2#日剧$4#韩剧$3#泰剧$5#动漫$6" } },
   
 
 {"key":"csp_XBiuNivodfans2","name":"✈泥视频 粉絲自建2(XB)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"hl-content-text\">&&</em>","分类url":"https://webdisk.nivodi.com/index.php/vod/type/id/{cateId}/page/{catePg}/year/{year}.html","分类": "電視劇$2#電影$1#動漫$48#綜藝$3#紀錄片$21"}}
