@@ -3,6 +3,7 @@
 "lives":[{"name":"大田沟","type":0,"url":"https://ghp.ci/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"} ],
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
+{"key":"95024","name":"首页","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.daheshiye.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"ysgc","name":"ysgc","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc.fun/vodshow/{cateId}--------{catePg}---.html"}, 
 {"key":"csp_xb","name":"邵氏电影","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.okdy123.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95001","name":"95001","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ysmao.cc/vodtype/{cateId}--------{catePg}---.html"},
@@ -29,9 +30,9 @@
 {"key":"95022","name":"95022","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc3.cc/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95023","name":"95023","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.llyady.com/vodshow/{cateId}--------{catePg}---.html"},
 
-{"key":"95024","name":"95024","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.daheshiye.com/vodshow/{cateId}--------{catePg}---.html"},
+{"key":"95024","name":"95024","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.iyouxiu.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95025","name":"95025","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.keke15.com/show/{cateId}--------{catePg}---.html"},
-{"key":"95026","name":"95026","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://szgpmy.com/vodtype/{cateId}--------{catePg}---.html"},
+{"key":"95026","name":"95026","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.52xkdy.com/vodlist/{cateId}--------{catePg}---.html"},
 
 {"key":"95030","name":"95030","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://555dycom.com/livodshow/{cateId}--------{catePg}---.html"}
 ],
