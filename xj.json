@@ -1,6 +1,6 @@
 {
 "spider":"https://ghfast.top/raw.githubusercontent.com/qjlxg/TV/main/spider.jar",
-"spider":"https://gh.monlor.com/raw.githubusercontent.com/qjlxg/TV/main/spider.jar",
+
 "lives":[{"name":"大田沟","type":0,"url":"https://gh.monlor.com/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"} ],
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
