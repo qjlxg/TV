@@ -30,7 +30,6 @@
 {"key":"95021","name":"95021","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.weihuafrp.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95022","name":"95022","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.ysgc3.cc/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95023","name":"95023","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.llyady.com/vodshow/{cateId}--------{catePg}---.html"},
-
 {"key":"95024","name":"95024","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.iyouxiu.com/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95025","name":"95025","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.92dyw.net/type/{cateId}--------{catePg}---.html"},
 {"key":"95026","name":"95026","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.52xkdy.com/vodlist/{cateId}--------{catePg}---.html"},
@@ -42,8 +41,19 @@
 {"key":"95032","name":"95032","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://hanjuw.cc/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95033","name":"95033","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://777tv.tw/vodshow/{cateId}--------{catePg}---.html"},
 {"key":"95034","name":"95034","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gd333mov.com/index.php/vod/show/{cateId}--------{catePg}---.html"},
+{"key":"95035","name":"95035","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.555dy.me/vodshow/{cateId}--------{catePg}---.html"},
+{"key":"95036","name":"95036","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.jktv.app/show/{cateId}--------{catePg}---.html"},
+{"key":"95037","name":"95037","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ys2046.ink/show/{cateId}--------{catePg}---.html"},
+{"key":"95038","name":"95038","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kandianshi.org/vod/show/{cateId}--------{catePg}---.html"},
+{"key":"95039","name":"95039","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.139ys.com/vodshow/{cateId}--------{catePg}---.html"},
+{"key":"95040","name":"95040","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.hahads.com/show/{cateId}--------{catePg}---.html"},
+{"key":"95041","name":"95041","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://zhuiyingmao4.com/vodshow/{cateId}--------{catePg}---.html"},
+{"key":"95042","name":"95042","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.kanxiwa.com/tags/{cateId}--------{catePg}---.html"},
+{"key":"95043","name":"95043","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://v.idoog.me/index.php/vod/type/{cateId}--------{catePg}---.html"},
+{"key":"95044","name":"95044","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://mxvod.com/vodshow/{cateId}--------{catePg}---.html"},
 
-{"key":"95035","name":"95035","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://555dycom.com/livodshow/{cateId}--------{catePg}---.html"}
+  
+{"key":"95045","name":"95045","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://555dycom.com/livodshow/{cateId}--------{catePg}---.html"}
 ],
 
 
