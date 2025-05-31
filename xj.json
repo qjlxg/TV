@@ -1,7 +1,7 @@
 {
 "spider":"https://igdux.top/7Zsj",
 
-"lives":[{"name":"大田沟","type":0,"url":"https://raw.githubusercontent.com/qjlxg/collect-tv-txt/refs/heads/main/live_lite.txt","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"} ],
+"lives":[{"name":"大田沟","type":0,"url":"https://bgithub.xyz/qjlxg/vt/raw/refs/heads/main/iptv_list.txt","playerType":1,"epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"} ],
 "wallpaper":"https://7ed.net/bing/api",
 "sites":[
 {"key":"95000","name":"首页","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.daheshiye.com/vodshow/{cateId}--------{catePg}---.html"},
