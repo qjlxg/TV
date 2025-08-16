@@ -317,15 +317,19 @@ def main():
         channel_name, channel_url = result.split(',')
         print(f"检测成功  {channel_name},{channel_url}  响应时间 ：{elapsed_time:.0f} 毫秒")
 
-    # 创建地方频道文件夹
-    local_channels_directory = os.path.join(os.getcwd(), '地方频道')
-    if not os.path.exists(local_channels_directory):
-        os.makedirs(local_channels_directory)
-        print(f"目录 '{local_channels_directory}' 已创建。")
-    else:
-        # 清空地方频道文件夹内所有的 .txt 文件
-        clear_txt_files(local_channels_directory)
-
+    # ----- 修改开始 -----
+    # 删除创建“地方频道”文件夹的代码
+    # local_channels_directory = os.path.join(os.getcwd(), '地方频道')
+    # if not os.path.exists(local_channels_directory):
+    #     os.makedirs(local_channels_directory)
+    #     print(f"目录 '{local_channels_directory}' 已创建。")
+    # else:
+    #     # 清空地方频道文件夹内所有的 .txt 文件
+    #     clear_txt_files(local_channels_directory)
+    
+    # 将临时文件的保存路径设置为根目录
+    local_channels_directory = os.getcwd()
+    
     # 遍历频道模板目录下的所有文件
     template_directory = os.path.join(os.getcwd(), '频道模板')
     if not os.path.exists(template_directory):
@@ -362,7 +366,7 @@ def main():
         matched_channels.sort(key=lambda x: channel_key(x.split(',')[0]))
         matched_channels.sort(key=lambda x: channel_key(x[0]))
 
-        # 写入对应地区命名的 _iptv.txt 文件中，保存在地方频道文件夹中
+        # 写入对应地区命名的 _iptv.txt 文件中，保存在根目录
         output_file_path = os.path.join(local_channels_directory, f"{template_name}_iptv.txt")
         with open(output_file_path, 'w', encoding='utf-8') as f:
             # 写入标题行
@@ -371,12 +375,13 @@ def main():
                 f.write(channel + '\n')
         print(f"频道列表已写入: {template_name}_iptv.txt")
 
-    # 新增逻辑：筛选出未分类的频道并写入新文件
+    # 筛选出未分类的频道并写入新文件
     uncategorized_channels = [channel for channel in iptv_speed_channels if
                               channel.split(',')[0] not in all_template_channel_names]
 
     if uncategorized_channels:
-        uncategorized_file_path = os.path.join(local_channels_directory, 'uncategorized_iptv.txt')
+        # 修改保存路径，直接保存在根目录
+        uncategorized_file_path = os.path.join(os.getcwd(), 'uncategorized_iptv.txt')
         with open(uncategorized_file_path, 'w', encoding='utf-8') as f:
             f.write("未分类频道,#genre#\n")
             for channel in uncategorized_channels:
@@ -387,7 +392,7 @@ def main():
     # 合并所有 _iptv.txt 文件
     def merge_iptv_files():
         merged_content = ""
-        # 获取所有 _iptv.txt 文件的路径
+        # 获取所有 _iptv.txt 文件的路径，现在它们在根目录
         iptv_files = [f for f in os.listdir(local_channels_directory) if f.endswith('_iptv.txt')]
         # 确定央视频道和卫视频道的文件名
         central_channel_file = "央视频道_iptv.txt"
