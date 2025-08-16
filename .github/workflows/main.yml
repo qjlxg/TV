@@ -2,7 +2,7 @@ name: zhixue
 
 on:
   schedule:
- - cron: '0 */6 * * *'
+  - cron: '0 */6 * * *'
   push:
     branches:
       - main
@@ -31,8 +31,8 @@ jobs:
                                
       - name: 提交更改
         run: |
-          git config --local user.email "quwuping11@gmail.com"
-          git config --local user.name "qingtingjjjjjjj"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           git commit *.txt -m "Add generated file"
           git push -f
