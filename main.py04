@@ -33,7 +33,7 @@ def read_txt_to_array(file_name):
         return []
 
 # 读取并解析同义词文件
-def load_synonyms(file_name="config/channel_synonyms.json"):
+def load_synonyms(file_name="channel_synonyms.json"):
     synonyms = {}
     try:
         with open(file_name, 'r', encoding='utf-8') as f:
@@ -201,19 +201,6 @@ def main():
         total_channels = len(lines)
         print(f"\n所有频道已保存到文件: {iptv_file_path}，共采集到频道数量: {total_channels} 条\n")
 
-
-    # ----- 新增快速检测函数 -----
-    def check_url_quick(url, timeout=3):
-        try:
-            if url.startswith("http"):
-                response = urllib.request.urlopen(url, timeout=timeout)
-                if response.status == 200:
-                    return True
-        except Exception:
-            pass  # 忽略错误，直接返回 False
-        return False
-    # ----------------------------
-
     def check_url(url, channel_name, timeout=6):
         start_time = time.time()
         elapsed_time = None
@@ -291,10 +278,6 @@ def main():
         parts = line.split(',')
         if len(parts) == 2:
             name, url = parts
-            # ----- 第一步：快速检查 -----
-            if url.startswith("http") and not check_url_quick(url.strip()):
-                return None, None  # 快速检查失败，直接跳过
-            # ----- 第二步：详细检测 -----
             elapsed_time, is_valid = check_url(url.strip(), name)
             if is_valid:
                 return elapsed_time, f"{name},{url}"
@@ -334,6 +317,16 @@ def main():
         channel_name, channel_url = result.split(',')
         print(f"检测成功  {channel_name},{channel_url}  响应时间 ：{elapsed_time:.0f} 毫秒")
 
+    # ----- 修改开始 -----
+    # 删除创建“地方频道”文件夹的代码
+    # local_channels_directory = os.path.join(os.getcwd(), '地方频道')
+    # if not os.path.exists(local_channels_directory):
+    #     os.makedirs(local_channels_directory)
+    #     print(f"目录 '{local_channels_directory}' 已创建。")
+    # else:
+    #     # 清空地方频道文件夹内所有的 .txt 文件
+    #     clear_txt_files(local_channels_directory)
+    
     # 将临时文件的保存路径设置为根目录
     local_channels_directory = os.getcwd()
     

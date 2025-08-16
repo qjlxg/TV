@@ -33,7 +33,7 @@ def read_txt_to_array(file_name):
         return []
 
 # 读取并解析同义词文件
-def load_synonyms(file_name="config/channel_synonyms.json"):
+def load_synonyms(file_name="channel_synonyms.json"):
     synonyms = {}
     try:
         with open(file_name, 'r', encoding='utf-8') as f:
@@ -201,19 +201,6 @@ def main():
         total_channels = len(lines)
         print(f"\n所有频道已保存到文件: {iptv_file_path}，共采集到频道数量: {total_channels} 条\n")
 
-
-    # ----- 新增快速检测函数 -----
-    def check_url_quick(url, timeout=3):
-        try:
-            if url.startswith("http"):
-                response = urllib.request.urlopen(url, timeout=timeout)
-                if response.status == 200:
-                    return True
-        except Exception:
-            pass  # 忽略错误，直接返回 False
-        return False
-    # ----------------------------
-
     def check_url(url, channel_name, timeout=6):
         start_time = time.time()
         elapsed_time = None
@@ -291,10 +278,6 @@ def main():
         parts = line.split(',')
         if len(parts) == 2:
             name, url = parts
-            # ----- 第一步：快速检查 -----
-            if url.startswith("http") and not check_url_quick(url.strip()):
-                return None, None  # 快速检查失败，直接跳过
-            # ----- 第二步：详细检测 -----
             elapsed_time, is_valid = check_url(url.strip(), name)
             if is_valid:
                 return elapsed_time, f"{name},{url}"
@@ -334,9 +317,15 @@ def main():
         channel_name, channel_url = result.split(',')
         print(f"检测成功  {channel_name},{channel_url}  响应时间 ：{elapsed_time:.0f} 毫秒")
 
-    # 将临时文件的保存路径设置为根目录
-    local_channels_directory = os.getcwd()
-    
+    # 创建地方频道文件夹
+    local_channels_directory = os.path.join(os.getcwd(), '地方频道')
+    if not os.path.exists(local_channels_directory):
+        os.makedirs(local_channels_directory)
+        print(f"目录 '{local_channels_directory}' 已创建。")
+    else:
+        # 清空地方频道文件夹内所有的 .txt 文件
+        clear_txt_files(local_channels_directory)
+
     # 遍历频道模板目录下的所有文件
     template_directory = os.path.join(os.getcwd(), '频道模板')
     if not os.path.exists(template_directory):
@@ -346,17 +335,11 @@ def main():
 
     # 读取 iptv_speed.txt 文件中的频道列表
     iptv_speed_channels = read_txt_to_array(iptv_speed_file_path)
-    
-    # 获取所有模板频道名，用于后续筛选未分类频道
-    all_template_channel_names = set()
 
     # 对于每个模板文件，进行比对并写入结果
     for template_file in template_files:
         template_channels = read_txt_to_array(os.path.join(template_directory, template_file))
         template_name = os.path.splitext(template_file)[0]
-        
-        # 将模板中的频道名添加到总集合中
-        all_template_channel_names.update(template_channels)
 
         # 筛选出匹配的频道
         matched_channels = [channel for channel in iptv_speed_channels if
@@ -373,7 +356,7 @@ def main():
         matched_channels.sort(key=lambda x: channel_key(x.split(',')[0]))
         matched_channels.sort(key=lambda x: channel_key(x[0]))
 
-        # 写入对应地区命名的 _iptv.txt 文件中，保存在根目录
+        # 写入对应地区命名的 _iptv.txt 文件中，保存在地方频道文件夹中
         output_file_path = os.path.join(local_channels_directory, f"{template_name}_iptv.txt")
         with open(output_file_path, 'w', encoding='utf-8') as f:
             # 写入标题行
@@ -382,24 +365,10 @@ def main():
                 f.write(channel + '\n')
         print(f"频道列表已写入: {template_name}_iptv.txt")
 
-    # 筛选出未分类的频道并写入新文件
-    uncategorized_channels = [channel for channel in iptv_speed_channels if
-                              channel.split(',')[0] not in all_template_channel_names]
-
-    if uncategorized_channels:
-        # 修改保存路径，直接保存在根目录
-        uncategorized_file_path = os.path.join(os.getcwd(), 'uncategorized_iptv.txt')
-        with open(uncategorized_file_path, 'w', encoding='utf-8') as f:
-            f.write("未分类频道,#genre#\n")
-            for channel in uncategorized_channels:
-                f.write(channel + '\n')
-        print(f"未分类频道列表已写入: uncategorized_iptv.txt")
-
-
     # 合并所有 _iptv.txt 文件
     def merge_iptv_files():
         merged_content = ""
-        # 获取所有 _iptv.txt 文件的路径，现在它们在根目录
+        # 获取所有 _iptv.txt 文件的路径
         iptv_files = [f for f in os.listdir(local_channels_directory) if f.endswith('_iptv.txt')]
         # 确定央视频道和卫视频道的文件名
         central_channel_file = "央视频道_iptv.txt"
@@ -441,7 +410,7 @@ def main():
                         channels_grouped[channel_name] = []
                     channels_grouped[channel_name].append(line)
 
-            # 只保留每个分组的前200个频道
+            # 只保留每个分组的前20个频道
             for channel_name in channels_grouped:
                 channels_grouped[channel_name] = channels_grouped[channel_name][:200]
 
