@@ -33,7 +33,7 @@ def read_txt_to_array(file_name):
         return []
 
 # 读取并解析同义词文件
-def load_synonyms(file_name="channel_synonyms.json"):
+def load_synonyms(file_name="config/channel_synonyms.json"):
     synonyms = {}
     try:
         with open(file_name, 'r', encoding='utf-8') as f:
