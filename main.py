@@ -7,6 +7,14 @@ import subprocess
 import socket
 import time
 from datetime import datetime
+from tqdm import tqdm
+import logging
+
+# 配置日志记录
+logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# 配置 tqdm 进度条的最小更新间隔
+TQDM_MIN_INTERVAL = 2.5
 
 
 # 读取文本方法
@@ -148,7 +156,7 @@ def main():
 
     # 处理过滤和替换频道名称
     all_channels = []
-    for url in urls:
+    for url in tqdm(urls, desc="处理URL", mininterval=TQDM_MIN_INTERVAL):
         for channel_name, channel_url in process_url(url):
             all_channels.append((channel_name, channel_url))
 
@@ -258,7 +266,8 @@ def main():
         results = []
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = {executor.submit(process_line, line): line for line in lines}
-            for future in as_completed(futures):
+            # 使用 tqdm 包装 as_completed
+            for future in tqdm(as_completed(futures), total=len(lines), desc="检测频道", mininterval=TQDM_MIN_INTERVAL):
                 elapsed_time, result = future.result()
                 if elapsed_time is not None:
                     results.append((elapsed_time, result))
