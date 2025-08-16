@@ -37,7 +37,6 @@ tvN
 美亞電影台(HK)
 靖天電影台
 龍華日韓台
-龍華電影台
 AXN
 i-Fun 動漫台
 Love Nature HD
@@ -56,7 +55,7 @@ Nick Jr
 Nickelodeon
 Thrill
 ZooMoo
-亞洲新聞台
+
 東方衛視國際頻道
 無線衛星新聞台
 华数4K
