@@ -25,7 +25,7 @@
   "CCTV 4K": ["CCTV-4K超清"],
   "CCTV+ Channel 1": ["CCTV+ Channel 1"],
   "CCTV+ Channel 2": ["CCTV+ Channel 2"],
-  "CNA": ["CHANNEL NEWS ASIA 🇸🇬", "CNA (Domestic Feed)", "CNA 2 On (R)", "CNA 938 Live Singapore", "CNA Japan", "CNA 新加坡", "CNA(1080p)[480*270]", "CNA台", "CNA新闻", "CNA亞洲新聞台", "新加坡 CNA", "新加坡 亚洲新闻", "新加坡CNA", "新加坡_CNA", "新加坡新闻", "新马 Ⅰ 亚洲新闻", "新马|亚洲新闻", "新马亚洲新闻", "MeWatch CNA", "Channel News Asia", "Channel News Asia TV", "Channel News Asia『蓝光』"],
+  "CNA": ["CHANNEL NEWS ASIA 🇸🇬", "CNA (Domestic Feed)", "CNA 2 On (R)", "CNA 938 Live Singapore", "CNA Japan", "CNA 新加坡", "CNA(1080p)[480*270]", "CNA台", "CNA新闻", "CNA亞洲新聞台", "新加坡 CNA", "新加坡 亚洲新闻", "新加坡CNA", "新加坡_CNA", "新加坡新闻", "新马 Ⅰ 亚洲新闻", "新马|亚洲新闻", "新马亚洲新闻", "MeWatch CNA", "Channel News Asia", "Channel News Asia TV", "Channel News Asia『蓝光』","亞洲新聞台","亚洲新闻台","CNA","新 | CNA亞洲新聞台"],
   "TVB娱乐新闻": ["TVB娱乐新闻", "TVB娱乐新闻[1280*720]", "TVB娛樂新聞", "TVB娱乐新闻台"],
   "TVB新闻": ["TVB新闻[1280*720]", "TVB新闻台", "TVB新聞", "TVB新闻台[1920*1080]", "TVB_News"],
   "TVB星河": ["TVB星河", "TVB星河3","TVB星河台"],
@@ -59,7 +59,7 @@
   "湖南电影": ["湖南电影"],
   "台视新闻": ["台視新聞"],
   "三立新闻": ["三立iNEWS"],
-  
+  "中天新闻": ["中天新聞 2"],
   "湖南金鹰卡通": ["湖南金鹰卡通"],
 
   "东南卫视": ["东南卫视", "东南卫视东联"],
