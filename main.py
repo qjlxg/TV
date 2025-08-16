@@ -14,6 +14,7 @@ from tqdm import tqdm
 # 配置日志记录
 logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
+TQDM_MIN_INTERVAL = 2.5 
 
 # 读取文本方法
 def read_txt_to_array(file_name):
