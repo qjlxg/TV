@@ -2,6 +2,7 @@ import urllib.request
 from urllib.parse import urlparse
 import os
 import re
+import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import subprocess
 import socket
@@ -25,11 +26,27 @@ def read_txt_to_array(file_name):
             lines = [line.strip() for line in lines]
             return lines
     except FileNotFoundError:
-        print(f"File '{file_name}' not found.")
+        print(f"文件 '{file_name}' 未找到.")
         return []
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"读取文件时发生错误: {e}")
         return []
+
+# 读取并解析同义词文件
+def load_synonyms(file_name="channel_synonyms.json"):
+    synonyms = {}
+    try:
+        with open(file_name, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            # 创建一个反向查找字典，以便快速匹配
+            for key, values in data.items():
+                for value in values:
+                    synonyms[value.lower()] = key
+    except FileNotFoundError:
+        print(f"同义词文件 '{file_name}' 未找到，将不使用频道名称标准化功能。")
+    except json.JSONDecodeError:
+        print(f"同义词文件 '{file_name}' 格式错误，请检查 JSON 语法。")
+    return synonyms
 
 
 # 准备支持 m3u 格式
@@ -114,11 +131,12 @@ def process_url(url, timeout=10):
         return []
 
 
-# 函数用于过滤和替换频道名称
+# 函数用于过滤、标准化和替换频道名称
 def filter_and_modify_sources(corrections):
     filtered_corrections = []
     name_dict = ['购物', '理财', '导视', '指南', '测试', '芒果', 'CGTN']
     url_dict = []  # '2409:'留空不过滤ipv6频道
+    synonyms = load_synonyms()
 
     for name, url in corrections:
         # 添加类型检查，确保 name 是一个字符串
@@ -126,11 +144,14 @@ def filter_and_modify_sources(corrections):
             print(f"警告：跳过非字符串频道名称: {name}")
             continue
 
-        if any(word.lower() in name.lower() for word in name_dict) or any(word in url for word in url_dict):
-            print("过滤频道:" + name + "," + url)
+        # 使用同义词进行标准化
+        standardized_name = synonyms.get(name.lower(), name)
+        
+        if any(word.lower() in standardized_name.lower() for word in name_dict) or any(word in url for word in url_dict):
+            print("过滤频道:" + standardized_name + "," + url)
         else:
             # 进行频道名称的替换操作
-            name = name.replace("FHD", "").replace("HD", "").replace("hd", "").replace("频道", "").replace("高清", "") \
+            name = standardized_name.replace("FHD", "").replace("HD", "").replace("hd", "").replace("频道", "").replace("高清", "") \
                 .replace("超清", "").replace("20M", "").replace("-", "").replace("4k", "").replace("4K", "") \
                 .replace("4kR", "")
             filtered_corrections.append((name, url))
