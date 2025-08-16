@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 
 # 配置日志记录
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 # 读取文本方法
