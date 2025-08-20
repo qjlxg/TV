@@ -1,12 +1,11 @@
 港台频道,#genre#
-TVB J1,http://cdn6.veryfast.filegear-sg.me/live/j1/stream.m3u8
 TVB J1,http://cdn6.veryfast.filegear-sg.me/live/tvb1/stream.m3u8
+TVB J1,http://cdn6.veryfast.filegear-sg.me/live/j1/stream.m3u8
 TVB J1,http://185.243.7.13:80/play/live.php
 TVB J1,http://cdn3.163189.xyz/live/j1/stream.m3u8
-TVB J1,http://cdn3.132.us.kg/live/j1/stream.m3u8
 TVB J1,http://cdn5.1678520.xyz/live/
 TVB J1,https://cdn3.163189.xyz/live/j1/stream.m3u8
-TVBTVB翡翠(第2声道简体),http://iptv.tvfix.org/hls/jade2.m3u8
+TVB J1,http://cdn3.132.us.kg/live/j1/stream.m3u8
 TVB J2,http://php.jdshipin.com:8880/smt.php
 TVB J2,http://r.jdshipin.com/ndGgS
 TVB J2,http://r.jdshipin.com/Nr5jq
@@ -15,202 +14,183 @@ RTHK32,http://cdn.veryfast.filegear-sg.me/live/rthk32/stream.m3u8
 RTHK32,http://php.jdshipin.com:8880/smt.php
 RTHK32,http://s1.an94tv.cfd/aktv3/rthk32/AKTV.m3u8
 RTHK32,https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
-TVB千禧经典电影[1280*720],http://php.jdshipin.com/smt.php
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-TVBS亚洲,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-台视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV25.m3u8
 寰宇新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
+中天新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
+中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
 三立新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV01.m3u8
 民视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
-TVBS新闻 NESW,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
-中天新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
-东森财经新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
-TVBS新闻,https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-IL/tvbs_asia_a0bef49e.m3u8
-三立新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
-中天新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
-中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
-TVBS新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
-亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+台视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV25.m3u8
 TVBS亚洲,https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-IL/tvbs_asia_a0bef49e.m3u8
-亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-TVBTVB翡翠,http://v3948069e.live.126.net/live/yO5jK1cY6cR5mM0kK9mK1cNolV6uI0sG.flv
-TVB新闻,http://iptv.tvfix.org/hls/inews.m3u8
+TVBS新闻,https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-IL/tvbs_asia_a0bef49e.m3u8
+中天新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
+TVBS新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
+东森财经新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
+TVBS新闻 NESW,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
 TVBS,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
+三立新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
+亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+TVB明珠,https://live.tvfix.org/live/pearl/index.m3u8
+亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 TVB PLUS,http://cdn.veryfast.filegear-sg.me/live/tvbp/stream.m3u8
-TVBTVB翡翠,https://live.astradamy.com/tvbfc/index.m3u8
-TVB为食台,http://iptv.tvfix.org/hls/tvbws.m3u8
-TVBS新闻,http://iptv.tvfix.org/hls/tvbsnews.m3u8
-TVB功夫,http://iptv.tvfix.org/hls/tvbkf.m3u8
-TVB星河(普通话),http://iptv.tvfix.org/hls/tvbxh2.m3u8
-TVBTVB翡翠海外版(普通话简体),http://iptv.tvfix.org/hls/jadenhk2.m3u8
-TVBS亚洲,http://iptv.tvfix.org/hls/tvbs.m3u8
-TVB娱乐新闻,https://live.tvfix.org/live/enews/index.m3u8
 明珠台,http://iptv.tvfix.org/hls/pearl2.m3u8
-明珠台,http://iptv.tvfix.org/hls/pearl.m3u8
-TVB功夫,http://iptv.tvfix.org/hls/tvbkf2.m3u8
-TVB为食台,http://iptv.tvfix.org/hls/tvbws2.m3u8
-TVB星河(粤语),http://iptv.tvfix.org/hls/tvbxh.m3u8
-TVB经典电影,http://iptv.tvfix.org/hls/tvbjd.m3u8
-明珠台,http://iptv.tvfix.org/hls/financenhk.m3u8
-TVBTVB翡翠海外版(粤语繁体),http://iptv.tvfix.org/hls/jadenhk.m3u8
+TVB功夫,http://iptv.tvfix.org/hls/tvbkf.m3u8
 明珠台,http://cdn5.zone.id/live/mzt/stream.m3u8
-明珠台,http://php.jdshipin.com:8880/smt.php
-TVB娱乐新闻,http://php.jdshipin.com/smt.php
-TVB Jade,http://php.jdshipin.com/smt.php
-TVBTVBTVB翡翠,http://php.jdshipin.com:8880/smt.php
-TVB新闻,http://php.jdshipin.com:8880/smt.php
-TVBTVB翡翠,http://php.jdshipin.com:8880/smt.php
-TVB星河,http://php.jdshipin.com/smt.php
-TVB星河,http://php.jdshipin.com:8880/smt.php
-TVB新闻,http://php.jdshipin.com/smt.php
-亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-TVBTVB翡翠,http://php.jdshipin.com/smt.php
-TVB明珠,http://php.jdshipin.com:8880/smt.php
-TVB Jade,http://s1.an94tv.cfd/aktv/CH-0/AKTV.m3u8
-TVB翡翠剧集台(北美),http://s1.an94tv.cfd/aktv/CH-18/AKTV.m3u8
-TVB千禧经典电影,http://php.jdshipin.com/smt.php
+TVB娱乐新闻,https://live.tvfix.org/live/enews/index.m3u8
+TVB功夫,http://iptv.tvfix.org/hls/tvbkf2.m3u8
+TVBS亚洲,http://iptv.tvfix.org/hls/tvbs.m3u8
+TVB星河(普通话),http://iptv.tvfix.org/hls/tvbxh2.m3u8
+TVB新闻,http://iptv.tvfix.org/hls/inews.m3u8
+TVB星河,http://iptv.tvfix.org/hls/tvbxh.m3u8
+TVB为食台,http://iptv.tvfix.org/hls/tvbws2.m3u8
+明珠台,http://iptv.tvfix.org/hls/pearl.m3u8
+TVB经典电影,http://iptv.tvfix.org/hls/tvbjd.m3u8
 TVBS新闻,http://s1.an94tv.cfd/taiwan/tvbs-1/AKTV.m3u8
+TVBS新闻,http://iptv.tvfix.org/hls/tvbsnews.m3u8
+TVB为食台,http://iptv.tvfix.org/hls/tvbws.m3u8
+明珠台,http://iptv.tvfix.org/hls/financenhk.m3u8
+TVB经典电影,http://php.jdshipin.com/smt.php
+TVB星河,http://s1.an94tv.cfd/taiwan2/tvb/AKTV.m3u8
+TVB新闻,http://php.jdshipin.com/smt.php
+TVB星河,http://php.jdshipin.com/smt.php
+TVB Jade,http://php.jdshipin.com/smt.php
+TVB新闻,http://php.jdshipin.com:8880/smt.php
+TVB娱乐新闻,http://php.jdshipin.com/smt.php
+TVB明珠,http://php.jdshipin.com:8880/smt.php
+TVB星河,http://php.jdshipin.com:8880/smt.php
+亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+TVBS亚洲,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+TVB Jade,http://s1.an94tv.cfd/aktv/CH-0/AKTV.m3u8
+亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
+TVB新闻,http://s1.an94tv.cfd/aktv/CH-1/AKTV.m3u8
 TVB翡翠娛樂台(北美),http://s1.an94tv.cfd/aktv/CH-7/AKTV.m3u8
-TVBS,http://s1.an94tv.cfd/taiwan/tvbs/AKTV.m3u8
 TVB PLUS,http://s1.an94tv.cfd/aktv/tvbplus/AKTV.m3u8
 TVBS新闻,http://s1.an94tv.cfd/taiwan/tvbs/AKTV.m3u8
-民视新闻,http://108.181.20.197/livehttpplay
-TVB翡翠综合台(北美),http://s1.an94tv.cfd/aktv/CH-17/AKTV.m3u8
-TVBS欢乐,http://live4play.uk/livehttpplay
-明珠台,http://s1.an94tv.cfd/aktv/CH-2/AKTV.m3u8
-TVBS精彩,http://108.181.20.197/livehttpplay
-三立综合,http://live4play.uk/livehttpplay
-三立新闻,http://108.181.20.197/livehttpplay
-三立都会,http://live4play.uk/livehttpplay
-TVB新闻,http://s1.an94tv.cfd/aktv/CH-1/AKTV.m3u8
-台视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-TVBS欢乐,http://108.181.20.197/livehttpplay
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-TVBTVB翡翠,http://s1.an94tv.cfd/aktv/CH-0/AKTV.m3u8
-东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
-台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
-TVBS新闻,http://108.181.20.197/livehttpplay
-台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-东森新闻,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
-民视新闻,http://live4play.uk/livehttpplay
-三立新闻,http://live4play.uk/livehttpplay
-TVBS新闻,http://live4play.uk/livehttpplay
-民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
-民视新闻,http://38.64.72.148:80/hls/modn/list/4012/playlist.m3u8
-台视新闻,http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
-东森新闻,http://s1.an94tv.cfd/zhongtian/CH-1/AKTV.m3u8
-东森新闻,http://108.181.20.197/livehttpplay
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-民视新闻,http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
-民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-东森超视,http://38.64.72.148/hls/modn/list/2013/chunklist1.m3u8
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
-东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
-民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-TVBS新闻,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-TVBS新闻,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-TVB Jade,http://vallest.uk/livehttpplay
-TVB 星河,http://s1.an94tv.cfd/taiwan2/tvb/AKTV.m3u8
 TVBS新聞,http://s1.an94tv.cfd/tvbs/tvbs/AKTV.m3u8
-TVB翡翠一台(北美),http://s1.an94tv.cfd/aktv/CH-8/AKTV.m3u8
-TVBS亚洲,http://185.243.7.13:80/play/live.php
-民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
-明珠台,http://r.jdshipin.com/GeWKr
-TVBS新闻,http://185.243.7.13:80/play/live.php
-TVB Jade,http://r.jdshipin.com/qrfbg
-TVB星河,http://r.jdshipin.com/Voac4
-TVBTVB翡翠,http://r.jdshipin.com/qrfbg
-TVB Jade,http://cdn.iptv8k.top/dl/jspd.php
-TVB明珠,https://live.tvfix.org/live/pearl/index.m3u8
-TVB新闻,http://r.jdshipin.com/CkuBd
-TVBTVBTVB翡翠,http://r.jdshipin.com/qClQf
-TVBTVB翡翠,http://r.jdshipin.com/qClQf
-TVBTVB翡翠,http://v3948069e.live.126.net/live/fpbtdvby35084998/1.flv
-TVBTVB翡翠,http://r.jdshipin.com/n90gt
-TVB Jade,http://r.jdshipin.com/qClQf
-TVBTVB翡翠,http://r.jdshipin.com/62WM7
-TVB Jade,http://r.jdshipin.com/n90gt
-TVB Jade,http://r.jdshipin.com/thuYX
+TVBS欢乐,http://108.181.20.197/livehttpplay
+三立新闻,http://live4play.uk/livehttpplay
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+TVB翡翠综合台(北美),http://s1.an94tv.cfd/aktv/CH-17/AKTV.m3u8
+台视新闻,http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
+三立都会,http://live4play.uk/livehttpplay
+三立新闻,http://108.181.20.197/livehttpplay
+民视新闻,http://live4play.uk/livehttpplay
+东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8
+台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+TVBS新闻,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+明珠台,http://s1.an94tv.cfd/aktv/CH-2/AKTV.m3u8
+东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+民视新闻,http://38.64.72.148:80/hls/modn/list/4012/playlist.m3u8
+民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
+明珠台,http://php.jdshipin.com:8880/smt.php
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+TVBS新闻,http://108.181.20.197/livehttpplay
+TVBS精彩,http://108.181.20.197/livehttpplay
+东森新闻,http://108.181.20.197/livehttpplay
+东森新闻,http://s1.an94tv.cfd/zhongtian/CH-1/AKTV.m3u8
 东森新闻,http://live4play.uk/livehttpplay
-东森超视,https://cdn.iptv8k.top/dl/jrys.php
+民视新闻,http://108.181.20.197/livehttpplay
+台视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
+民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+东森新闻,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+民视新闻,http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+民视新闻,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 TVBS新闻,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
-番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
+TVBS新闻,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+TVB Jade,http://vallest.uk/livehttpplay
+TVBS新闻,http://38.64.72.148/hls/modn/list/4027/chunklist1.m3u8
+东森超视,http://38.64.72.148/hls/modn/list/2013/chunklist1.m3u8
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+三立综合,http://live4play.uk/livehttpplay
+TVB翡翠剧集台(北美),http://s1.an94tv.cfd/aktv/CH-18/AKTV.m3u8
+TVBS,http://s1.an94tv.cfd/taiwan/tvbs/AKTV.m3u8
+TVBS新闻,http://185.243.7.13:80/play/live.php
+TVBS亚洲,http://185.243.7.13:80/play/live.php
+TVB星河,http://r.jdshipin.com/Voac4
+明珠台,http://r.jdshipin.com/ZQ4kN
+TVB新闻,http://r.jdshipin.com/CkuBd
+TVBS新闻,http://live4play.uk/livehttpplay
+TVBS欢乐,http://live4play.uk/livehttpplay
+TVB明珠,http://r.jdshipin.com/ZQ4kN
+TVB Jade,http://cdn.iptv8k.top/dl/jspd.php
+TVB Jade,http://r.jdshipin.com/qClQf
+TVB星河,http://r.jdshipin.com/sXuuD
+TVB Jade,http://r.jdshipin.com/thuYX
+TVB Jade,http://r.jdshipin.com/n90gt
+明珠台,http://r.jdshipin.com/GeWKr
+亚洲新闻,https://live1.mediadesk.al/cnatvlive.m3u8
+TVB Jade,http://r.jdshipin.com/GeWKr
 东森超视,http://61.216.11.93:49981/stream/channelid/1026178460.m3u8
+番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 番薯台,http://61.216.67.119:1935/TWHG/E1/playlist.m3u8
 番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
-tvbs闽南,http://61.221.215.25:8800/hls/9/index.m3u8
 中天娱乐,http://61.221.215.25:8800/hls/47/index.m3u8
+tvbs闽南,http://61.221.215.25:8800/hls/9/index.m3u8
 TVBS新闻,http://61.221.215.25:8800/hls/9/index.m3u8
-TVBTVB翡翠,https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8
 TVBS欢乐,http://61.216.11.93:49981/stream/channelid/1607444205.m3u8
-亚洲新闻,https://live1.mediadesk.al/cnatvlive.m3u8
 有线新闻,http://61.10.2.140:80/live_freedirect/freehd209_h.live/chunklist_w135209556.m3u8
+寰宇新闻,http://ccczb.top/mk2.php
 有线新闻,http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u
 有线新闻,http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
 澳门莲花,http://8.138.7.223/tv/lotustv.m3u8
-明珠台,http://r.jdshipin.com/ZQ4kN
-民视新闻,http://docker.livednow.dpdns.org/li-litv-ftv13/index.m3u8
-中天新闻,http://222.128.55.152:9080/live/fc.m3u8
-TVBS新闻,http://38.64.72.148/hls/modn/list/4027/chunklist1.m3u8
+番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+TVB Jade,http://r.jdshipin.com/qrfbg
 寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
-TVB Jade,http://222.128.55.152:9080/live/gdfc.m3u8
+中天新闻,http://222.128.55.152:9080/live/fc.m3u8
 台视新闻,http://222.128.55.152:9080/live/ts.m3u8
-TVBS新闻,http://ccczb.top/mk2.php
+TVB Jade,http://222.128.55.152:9080/live/gdfc.m3u8
 TVB Jade,http://120.198.95.220:9901/tsfile/live/1004_1.m3u8
-TVB Jade,http://120.198.101.106:9901/tsfile/live/1007_1.m3u8
-TVB Jade,http://r.jdshipin.com/GeWKr
-民视新闻,http://docker.livednow.dpdns.org/litv-ftv13/index.m3u8
 东森新闻,https://cdn.iptv8k.top/dl/jrys.php
-TVBTVB翡翠,https://cdn.iptv8k.top/dl/jrys.php
-TVB PLUS,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
-TVB明珠,http://r.jdshipin.com/ZQ4kN
-明珠台,http://php.jdshipin.com:8880/ub.php
-东森新闻,https://smart.pendy.dpdns.org/Smart.php
+民视新闻,http://docker.livednow.dpdns.org/li-litv-ftv13/index.m3u8
+东森超视,https://cdn.iptv8k.top/dl/jrys.php
 TVB Classic,https://smart.pendy.dpdns.org/Smart.php
+TVB新闻,http://livetv.dnsfor.me:80/channel.10.m3u8
+TVB News International,https://tvb.860775.xyz/I-NEWS
+民视新闻,http://docker.livednow.dpdns.org/litv-ftv13/index.m3u8
 东森超视,https://smart.pendy.dpdns.org/Smart.php
+明珠台,http://php.jdshipin.com:8880/ub.php
 TVB Jade,https://smart.pendy.dpdns.org/Smart.php
-TVB Asia,https://smart.pendy.dpdns.org/Smart.php
 TVBS欢乐,https://smart.pendy.dpdns.org/Smart.php
+东森新闻,https://smart.pendy.dpdns.org/Smart.php
 TVBS新闻,https://smart.pendy.dpdns.org/Smart.php
-亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
 TVB Jade,http://mytv.cdn.com.mp/hls/fct/playlist.m3u8
+TVB Asia,https://smart.pendy.dpdns.org/Smart.php
 TVB新闻,http://livetv.dnsfor.me/channel.10.m3u8
-明珠台,http://122.152.202.33/s/81a8a44f/index.m3u8
-TVBTVB翡翠,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
-TVB新闻,http://122.152.202.33/s/81a8a44f/index.m3u8
 TVB Jade,http://122.152.202.33/s/81a8a44f/index.m3u8
-TVBTVB翡翠,http://122.152.202.33/s/81a8a44f/index.m3u8
 TVB明珠,http://122.152.202.33/s/81a8a44f/index.m3u8
 TVB PLUS,http://cdn.163189.xyz/live/
 TVB PLUS,http://cdn.163189.xyz/live/tvbp/stream.m3u8
-寰宇新闻,http://ccczb.top/mk2.php
-TVB新闻,http://cdn.163189.xyz/live/tvbp/stream.m3u8
-TVB翡翠台,http://cdn.163189.xyz/live/fct4k/stream.m3u8
-TVB Jade,http://cdn.163189.xyz/live/fct4k/stream.m3u8
 明珠台,http://120.198.101.106:9901/tsfile/live/1008_1.m3u8
-TVB PLUS,https://cdn.163189.xyz/live/tvbp/stream.m3u8
-TVB PLUS,http://cdn.132.us.kg/live/tvbp/stream.m3u8
+TVBS新闻,http://ccczb.top/mk2.php
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+TVB新闻,http://cdn.163189.xyz/live/tvbp/stream.m3u8
 TVB Jade,https://cdn3.163189.xyz/live/fct4k/stream.m3u8
-TVB Jade,https://cdn3.163189.xyz/live/fct/stream.m3u8
 TVB Jade,https://cdn.163189.xyz/live/fct4k/stream.m3u8
-TVB Jade,http://cdn5.1678520.xyz/live/
-TVB Jade,http://cdn.132.us.kg/live/fct4k/stream.m3u8
-TVB明珠,http://120.198.101.106:9901/tsfile/live/1008_1.m3u8
 澳亚卫视,http://cdn.132.us.kg/live/as/stream.m3u8
-TVBTVB翡翠,http://cdn.132.us.kg/live/fct4k/stream.m3u8
-TVBS新闻,http://zb.xmzb.xyz/123b.php
+TVB Jade,https://cdn3.163189.xyz/live/fct/stream.m3u8
+TVB PLUS,http://cdn.132.us.kg/live/tvbp/stream.m3u8
+TVB Jade,http://cdn.132.us.kg/live/fct4k/stream.m3u8
+TVB Jade,http://120.198.101.106:9901/tsfile/live/1007_1.m3u8
+TVB明珠,http://120.198.101.106:9901/tsfile/live/1008_1.m3u8
+TVB PLUS,https://cdn.163189.xyz/live/tvbp/stream.m3u8
+TVB翡翠台,http://cdn.163189.xyz/live/fct4k/stream.m3u8
+TVB PLUS,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
 TVBS欢乐,http://zb.xmzb.xyz/123b.php
-TVB无线星河,http://120.198.101.106:9901/tsfile/live/1005_1.m3u8
-TVB PLUS,http://cdn5.1678520.xyz/live/
-TVB功夫,https://lb-mvtv-live.v2h-cdn.com/redirect/asia_action1/1asia_action.stream
-寰宇新闻,https://ghp.ci/https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
 TVB Jade,http://zb.xmzb.xyz/123b.php
+TVB星河,http://120.198.101.106:9901/tsfile/live/1005_1.m3u8
+TVB功夫,https://lb-mvtv-live.v2h-cdn.com/redirect/asia_action1/1asia_action.stream
+TVB Jade,http://cdn5.1678520.xyz/live/
+明珠台,http://122.152.202.33/s/81a8a44f/index.m3u8
+寰宇新闻,https://ghp.ci/https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
+TVB新闻,http://122.152.202.33/s/81a8a44f/index.m3u8
 TVB星河,http://zb.xmzb.xyz/123b.php
+TVB Jade,http://cdn.163189.xyz/live/fct4k/stream.m3u8
+TVB PLUS,http://cdn5.1678520.xyz/live/
