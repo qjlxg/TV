@@ -135,7 +135,7 @@ def process_url(url, timeout=10):
 def filter_and_modify_sources(corrections):
     filtered_corrections = []
     name_dict = ['购物', '理财', '导视', '指南', '测试', '芒果', 'CGTN']
-    url_dict = []  # '2409:'留空不过滤ipv6频道
+    url_dict = ['epg.pw']  # 添加需要排除的域名
     synonyms = load_synonyms()
 
     for name, url in corrections:
@@ -147,6 +147,7 @@ def filter_and_modify_sources(corrections):
         # 使用同义词进行标准化
         standardized_name = synonyms.get(name.lower(), name)
         
+        # 增加对url_dict的过滤逻辑
         if any(word.lower() in standardized_name.lower() for word in name_dict) or any(word in url for word in url_dict):
             print("过滤频道:" + standardized_name + "," + url)
         else:
