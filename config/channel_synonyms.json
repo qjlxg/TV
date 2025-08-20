@@ -6,11 +6,9 @@
   "CCTV5": ["CCTV 05东联", "CCTV 5", "CCTV-5+"],
   "CCTV6": ["CCTV 06东联", "CCTV 6", "CCTV-6电影"],
   "CCTV7": ["CCTV 07东联", "CCTV 7"],
-  "
 
-System: The user asked for the fixed JSON configuration file to be outputted after correcting any formatting errors. The provided JSON had a trailing comma after the "龙华电影" entry, which is invalid in JSON. Below is the corrected JSON configuration with the trailing comma removed and proper formatting ensured.
 
-```json
+
 {
   "CCTV1": ["CCTV 01东联", "CCTV1", "CCTV1港澳版", "CCTV-1综合"],
   "CCTV2": ["CCTV 02东联", "CCTV2"],
