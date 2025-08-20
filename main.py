@@ -406,6 +406,7 @@ def main():
         satellite_channel_file = "卫视频道_iptv.txt"
         hunan_channel_file = "湖南频道_iptv.txt"
         hk_taiwan_channel_file = "港台频道_iptv.txt"
+        uncategorized_file = "uncategorized_iptv.txt"
         # 创建一个有序的文件列表
         ordered_files = [central_channel_file, satellite_channel_file, hunan_channel_file, hk_taiwan_channel_file]
 
@@ -419,9 +420,11 @@ def main():
 
         # 添加剩余的频道
         for file_name in sorted(iptv_files):
-            file_path = os.path.join(local_channels_directory, file_name)
-            with open(file_path, "r", encoding="utf-8") as file:
-                merged_content += file.read() + "\n"
+            # 排除未分类频道文件
+            if file_name != uncategorized_file:
+                file_path = os.path.join(local_channels_directory, file_name)
+                with open(file_path, "r", encoding="utf-8") as file:
+                    merged_content += file.read() + "\n"
         # 获取当前时间
         now = datetime.now()
         update_time_line = f"更新时间,#genre#\n{now.strftime('%Y-%m-%d')},url\n{now.strftime('%H:%M:%S')},url\n"
