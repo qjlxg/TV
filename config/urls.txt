@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/qjlxg/VT/refs/heads/main/output/valid_channels_temp.txt
+https://raw.githubusercontent.com/qjlxg/VT/refs/heads/main/output/iptv.txt
