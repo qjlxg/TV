@@ -134,7 +134,7 @@ def process_url(url, timeout=10):
 # 函数用于过滤、标准化和替换频道名称
 def filter_and_modify_sources(corrections):
     filtered_corrections = []
-    name_dict = ['购物', '理财', '导视', '指南', '测试', '芒果', 'CGTN']
+    name_dict = ['购物', '理财', '导视', '指南', '测试', '芒果', 'CGTN', '未知']
     url_dict = ['epg.pw']  # 添加需要排除的域名
     synonyms = load_synonyms()
 
