@@ -5,7 +5,7 @@ set -x
 
 # 设置最大并行任务数
 max_parallel_jobs=10
-test_count=0
+running_jobs=0
 
 # 清理旧的临时文件和结果文件
 test -f tv_list.txt && rm tv_list.txt
@@ -27,7 +27,7 @@ while IFS=, read -r name url; do
         # 将测试任务推入后台并行执行
         (
             echo "--- 正在测试: $name"
-            # 使用 timeout 命令，强制 ffmpeg 在10秒后退出
+            # 使用 timeout 命令，强制 ffmpeg 在5秒后退出
             if timeout 5s ffmpeg -nostdin -i "$url" -t 5 -v quiet -f null - ; then
                 echo "$name,$url" >> tv_list.txt.tmp
                 echo "--- 测试成功: $name"
@@ -36,14 +36,15 @@ while IFS=, read -r name url; do
             fi
         ) &
         
-        # 增加计数器
-        ((test_count++))
+        # 增加正在运行的任务计数
+        ((running_jobs++))
         
-        # 每达到最大并行数时，等待所有任务完成
-        if ((test_count % max_parallel_jobs == 0)); then
-            echo "当前已启动 $test_count 个任务，等待当前批次完成..."
+        # 如果正在运行的任务数达到上限，则等待它们全部完成
+        if ((running_jobs >= max_parallel_jobs)); then
+            echo "当前正在运行 $running_jobs 个任务，等待当前批次完成..."
             wait
             echo "当前批次已完成，继续下一批..."
+            running_jobs=0 # 重置计数器
         fi
     else
         # 复制非URL行，例如标题或注释
