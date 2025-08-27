@@ -3,7 +3,11 @@ name: Check IPTV Channels
 on:
   push:
     branches:
-      - main
+      - main  # 替换成您使用的主要分支名称，例如 main 或 master
+    paths:
+      - 'iptv_check.sh'
+      - '.github/workflows/iptv_check.yml'
+
   schedule:
     - cron: '0 0 * * *' # 每天UTC时间午夜运行一次
 
@@ -15,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 确保拉取完整历史记录，以便后续提交
+          fetch-depth: 0
 
       - name: Install ffmpeg
         run: |
