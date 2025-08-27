@@ -7,7 +7,7 @@ on:
     paths:
       - 'iptv_check.sh'
       - '.github/workflows/iptv_check.yml'
-
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # 每天UTC时间午夜运行一次
 
