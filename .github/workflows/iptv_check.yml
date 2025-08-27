@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install ffmpeg
+      - name: Install ffmpeg and ffprobe
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
