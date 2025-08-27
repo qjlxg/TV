@@ -34,13 +34,13 @@ while IFS=, read -r name url; do
 
         # 并行测试（无重试）
         (
-            echo "--- 正在测试: $name ($url)"
+            stdbuf -oL echo "--- 正在测试: $name ($url)"
             if timeout 5s ffmpeg -nostdin -user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" \
                 -timeout 5000000 -i "$url" -t 5 -v quiet -f null - 2>> errors.log; then
+                stdbuf -oL echo "--- 测试成功: $name"
                 echo "$name,$url" >> tv_list.txt.tmp
-                echo "--- 测试成功: $name"
             else
-                echo "--- 测试失败: $name ($url)" >> failed_channels.log
+                stdbuf -oL echo "--- 测试失败: $name ($url)" | tee -a failed_channels.log
             fi
         ) &
 
@@ -54,7 +54,7 @@ while IFS=, read -r name url; do
     else
         # 复制非 URL 行（如 #genre# 或时间戳）
         echo "$name,$url" >> tv_list.txt.tmp
-        echo "--- 保留非 URL 行: $name"
+        stdbuf -oL echo "--- 保留非 URL 行: $name"
     fi
 done < iptv_list.txt.unique
 
@@ -73,3 +73,7 @@ rm iptv_list.txt.unique
 echo "可用频道已保存到 tv_list.txt"
 echo "失败频道已记录到 failed_channels.log"
 echo "错误详情已记录到 errors.log"
+
+# 显示资源使用情况（用于调试）
+echo "当前资源使用情况："
+top -bn1 | head -n 5
