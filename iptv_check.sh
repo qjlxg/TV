@@ -11,9 +11,14 @@ test_count=0
 test -f tv_list.txt && rm tv_list.txt
 test -f tv_list.txt.tmp && rm tv_list.txt.tmp
 
+echo "开始处理 iptv_list.txt，并进行去重..."
+# 对iptv_list.txt进行去重，然后写入临时文件
+sort -u iptv_list.txt -o iptv_list.txt.unique
+echo "去重完成，总频道数：$(wc -l < iptv_list.txt.unique)"
+
 echo "开始频道测试，最大并行任务数：$max_parallel_jobs"
 
-# 读取iptv_list.txt并逐行测试
+# 读取去重后的频道列表并逐行测试
 while IFS=, read -r name url; do
     # 检查URL是否有效
     if [[ "$url" =~ ^http.* ]]; then
@@ -22,7 +27,8 @@ while IFS=, read -r name url; do
         # 将测试任务推入后台并行执行
         (
             echo "--- 正在测试: $name"
-            if ffmpeg -nostdin -i "$url" -t 5 -v quiet -f null - ; then
+            # 使用 timeout 命令，强制 ffmpeg 在10秒后退出
+            if timeout 5s ffmpeg -nostdin -i "$url" -t 5 -v quiet -f null - ; then
                 echo "$name,$url" >> tv_list.txt.tmp
                 echo "--- 测试成功: $name"
             else
@@ -43,7 +49,7 @@ while IFS=, read -r name url; do
         # 复制非URL行，例如标题或注释
         echo "$name,$url" >> tv_list.txt.tmp
     fi
-done < iptv_list.txt
+done < iptv_list.txt.unique
 
 # 等待所有剩余的后台任务完成
 echo "所有任务已启动，等待剩余任务完成..."
@@ -55,5 +61,6 @@ sort -u -o tv_list.txt tv_list.txt.tmp
 
 # 清理临时文件
 rm tv_list.txt.tmp
+rm iptv_list.txt.unique
 
 echo "可用频道已保存到 tv_list.txt"
