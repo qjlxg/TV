@@ -7,6 +7,10 @@ set -x
 max_parallel_jobs=10
 running_jobs=0
 
+# 定义最低分辨率阈值（例如：720p）
+min_width=1280
+min_height=720
+
 # 清理旧的临时文件和结果文件
 test -f tv_list.txt && rm tv_list.txt
 test -f tv_list.txt.tmp && rm tv_list.txt.tmp
@@ -36,9 +40,18 @@ while IFS=, read -r name url; do
             # 使用 ffprobe 探测分辨率，并限制分析时间
             resolution=$(timeout 5s ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 "$url" 2>/dev/null)
             
+            # 检查是否成功获取到分辨率
             if [[ -n "$resolution" ]]; then
-                echo "--- 测试成功: $name, 分辨率: $resolution"
-                echo "$name,$url,$resolution" >> tv_list.txt.tmp
+                # 分割分辨率字符串
+                IFS='x' read -r width height <<< "$resolution"
+                
+                # 检查分辨率是否达到或超过阈值
+                if (( width >= min_width && height >= min_height )); then
+                    echo "--- 测试成功: $name, 分辨率: $resolution"
+                    echo "$name,$url,$resolution" >> tv_list.txt.tmp
+                else
+                    echo "--- 分辨率太低，跳过: $name, 分辨率: $resolution"
+                fi
             else
                 echo "--- 测试失败或无法获取分辨率: $name"
             fi
