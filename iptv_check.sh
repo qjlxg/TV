@@ -14,9 +14,10 @@ min_height=720
 # 清理旧的临时文件和结果文件
 test -f tv_list.txt && rm tv_list.txt
 test -f tv_list.txt.tmp && rm tv_list.txt.tmp
+test -f tv_list_test.txt.tmp && rm tv_list_test.txt.tmp
 
 echo "开始处理 iptv_list.txt，并进行去重..."
-# 对iptv_list.txt进行去重，然后写入临时文件
+# 对 iptv_list.txt 进行去重，然后写入临时文件
 sort -u iptv_list.txt -o iptv_list.txt.unique
 echo "去重完成，总频道数：$(wc -l < iptv_list.txt.unique)"
 
@@ -24,6 +25,12 @@ echo "开始频道测试，最大并行任务数：$max_parallel_jobs"
 
 # 读取去重后的频道列表并逐行测试
 while IFS=, read -r name url; do
+    # 如果行不包含逗号，则将其视为标题或注释，直接复制
+    if ! echo "$name,$url" | grep -q ','; then
+        echo "$name,$url" >> tv_list.txt.tmp
+        continue
+    fi
+
     # 排除 https://mursor.ottiptv.cc/ 和 https://cdn5.163189.xyz/ 开头的节目源
     if [[ "$url" =~ ^https://mursor.ottiptv.cc/.* || "$url" =~ ^https://cdn5.163189.xyz/.* ]]; then
         echo "--> 跳过节目源: $name (URL: $url)"
@@ -48,7 +55,7 @@ while IFS=, read -r name url; do
                 # 检查分辨率是否达到或超过阈值
                 if (( width >= min_width && height >= min_height )); then
                     echo "--- 测试成功: $name, 分辨率: $resolution"
-                    echo "$name,$url,$resolution" >> tv_list.txt.tmp
+                    echo "$name,$url,$resolution" >> tv_list_test.txt.tmp
                 else
                     echo "--- 分辨率太低，跳过: $name, 分辨率: $resolution"
                 fi
@@ -77,12 +84,16 @@ done < iptv_list.txt.unique
 echo "所有任务已启动，等待剩余任务完成..."
 wait
 
+# 将测试成功的频道信息追加到 tv_list.txt.tmp 中
+cat tv_list_test.txt.tmp >> tv_list.txt.tmp
+
 # 将临时文件中的结果进行排序并去重，然后写入最终文件
 echo "所有测试已完成，正在处理结果..."
 sort -u -o tv_list.txt tv_list.txt.tmp
 
 # 清理临时文件
 rm tv_list.txt.tmp
+rm tv_list_test.txt.tmp
 rm iptv_list.txt.unique
 
 echo "可用频道已保存到 tv_list.txt"
