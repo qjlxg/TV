@@ -20,6 +20,12 @@ echo "开始频道测试，最大并行任务数：$max_parallel_jobs"
 
 # 读取去重后的频道列表并逐行测试
 while IFS=, read -r name url; do
+    # 排除 https://mursor.ottiptv.cc/ 和 https://cdn5.163189.xyz/ 开头的节目源
+    if [[ "$url" =~ ^https://mursor.ottiptv.cc/.* || "$url" =~ ^https://cdn5.163189.xyz/.* ]]; then
+        echo "--> 跳过节目源: $name (URL: $url)"
+        continue
+    fi
+    
     # 检查URL是否有效
     if [[ "$url" =~ ^http.* ]]; then
         echo "--> 准备测试: $name"
@@ -27,13 +33,14 @@ while IFS=, read -r name url; do
         # 将测试任务推入后台并行执行
         (
             echo "--- 正在测试: $name"
-            # 使用 timeout 命令，强制 ffmpeg 在5秒后退出
-            # 增加 -analyzeduration 参数，强制 ffmpeg 在1秒内完成流分析
-            if timeout 5s ffmpeg -nostdin -analyzeduration 1000000 -i "$url" -t 5 -v quiet -f null - ; then
-                echo "$name,$url" >> tv_list.txt.tmp
-                echo "--- 测试成功: $name"
+            # 使用 ffprobe 探测分辨率，并限制分析时间
+            resolution=$(timeout 5s ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 "$url" 2>/dev/null)
+            
+            if [[ -n "$resolution" ]]; then
+                echo "--- 测试成功: $name, 分辨率: $resolution"
+                echo "$name,$url,$resolution" >> tv_list.txt.tmp
             else
-                echo "--- 测试失败: $name"
+                echo "--- 测试失败或无法获取分辨率: $name"
             fi
         ) &
         
