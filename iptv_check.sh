@@ -32,7 +32,7 @@ while IFS=, read -r name url; do
     fi
 
     # 排除 https://mursor.ottiptv.cc/ 和 https://cdn5.163189.xyz/ 开头的节目源
-    if [[ "$url" =~ ^https://mursor.ottiptv.cc/.* || "$url" =~ ^https://cdn5.163189.xyz/.* ]]; then
+    if [[ "$url" =~ ^https://mursor.ottiptv.cc/.* || "$url" =~ ^https://cdn5.163189.xyz/.* || "$url" =~ ^http://112.27.235.94:8000/.* || "$url" =~ ^http://113.57.111.4:1111/.* ]]; then
         echo "--> 跳过节目源: $name (URL: $url)"
         continue
     fi
