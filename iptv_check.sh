@@ -55,7 +55,7 @@ while IFS=, read -r name url; do
                 # 检查分辨率是否达到或超过阈值
                 if (( width >= min_width && height >= min_height )); then
                     echo "--- 测试成功: $name, 分辨率: $resolution"
-                    echo "$name,$url,$resolution" >> tv_list_test.txt.tmp
+                    echo "$name,$url" >> tv_list_test.txt.tmp
                 else
                     echo "--- 分辨率太低，跳过: $name, 分辨率: $resolution"
                 fi
