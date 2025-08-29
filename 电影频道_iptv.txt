@@ -1,328 +1,332 @@
 电影频道,#genre#
 29.奶虫恐怖电影,http://epg.112114.xyz/douyu/263824
 J2,http://iptv.tvfix.org/hls/j2.m3u8
-J2,http://r.jdshipin.com/Nr5jq
 J2,http://r.jdshipin.com/ndGgS
-France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
-France 24,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV38.m3u8
-France 24,http://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8
+France 24,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8
 France 24,http://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+France 24,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV38.m3u8
 France 24,http://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
-France 24,https://amg00106-france24-france24-samsungit-ya8pw.amagi.tv/playlist/amg00106-france24-france24-samsungit/cb573d1e786c64899dd43a62cef24482847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258ae774cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7f8e955178a65f4b7011bc67b45fa83439c8201b3d6820d8311d374a2109496f882db44d08cb9599e06e627475c2c69ebed13f8d26997e8bd4c0db3411c5b44158ccd92fa5d7287575363fcf0c6be6cf161a0e3499a41078b3fbc60a911a345b753db8b22a1a9a8914351299bca5a6c22d289cae0e014038d59d583c4f86e26e79c797943da23cc21142b84efc21a83b178fcdd38b197562e0cf2b86bbc80e8f385d98c4e8f6bc9c8e4883c302d096552dc2ec8fd6cdf3a937ca1ca6149362b5f9da97ce09beb345a023de6fa3e9e7349d9e146e2b50116c57a1256e461960e4b3c8c7c5b75eb29f68d2f2ca7124ad46573ab0375b74bf2ee78aee7c3b35272f5ffd752f36ad8b008f9ff16e6386f0e4ce0a46c176e6449fdc22a4d3c70c840a4f4cfe27c0649acd4c5eccf5e3d4868440342dbacb73ecbcef3281b17d35a6935274759c552a41cb56a7e0920cd11c4bf4925d5744603d2e76e0d143cec8bdbe7a0d9c543b97aa9bfde313d345466fd7e451167ddb2824eee7a2c5a7f4e8b1b6b53b7650316f2f429845028fd15faa172a9b2e6c3f9d930797b5327aa511d/94/848x480_1686360/index.m3u8
-France 24,https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+France 24,http://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8
+France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
 France 24,https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
+France 24,https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 France 24,https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
 France 24,https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-France 24,http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
-France 24,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8
-France 24,https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
+France 24,https://amg00106-france24-france24-samsungit-ya8pw.amagi.tv/playlist/amg00106-france24-france24-samsungit/cb573d1e786c64899dd43a62cef24482847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258ae774cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7f8e955178a65f4b7011bc67b45fa83439c8201b3d6820d8311d374a2109496f882db44d08cb9599e06e627475c2c69ebed13f8d26997e8bd4c0db3411c5b44158ccd92fa5d7287575363fcf0c6be6cf161a0e3499a41078b3fbc60a911a345b753db8b22a1a9a8914351299bca5a6c22d289cae0e014038d59d583c4f86e26e79c797943da23cc21142b84efc21a83b178fcdd38b197562e0cf2b86bbc80e8f385d98c4e8f6bc9c8e4883c302d096552dc2ec8fd6cdf3a937ca1ca6149362b5f9da97ce09beb345a023de6fa3e9e7349d9e146e2b50116c57a1256e461960e4b3c8c7c5b75eb29f68d2f2ca7124ad46573ab0375b74bf2ee78aee7c3b35272f5ffd752f36ad8b008f9ff16e6386f0e4ce0a46c176e6449fdc22a4d3c70c840a4f4cfe27c0649acd4c5eccf5e3d4868440342dbacb73ecbcef3281b17d35a6935274759c552a41cb56a7e0920cd11c4bf4925d5744603d2e76e0d143cec8bdbe7a0d9c543b97aa9bfde313d345466fd7e451167ddb2824eee7a2c5a7f4e8b1b6b53b7650316f2f429845028fd15faa172a9b2e6c3f9d930797b5327aa511d/94/848x480_1686360/index.m3u8
 France 24,http://persik.by/stream/2102/351000/10466.m3u8
+France 24,https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 France 24,http://38.180.133.31:8000/play/a0nm/index.m3u8
-France 24,https://otttv.co.in/d2h/livestream/france-24/master.m3u8
 France 24,https://lb1-live-mv.v2h-cdn.com/hls/fecd/france24/france24.m3u8
-France 24,https://mytvsuper.ecword.cloudns.be/CF24
+France 24,https://otttv.co.in/d2h/livestream/france-24/master.m3u8
 France 24,http://mytv.27481716.xyz/mytvsuper/CF24
+France 24,https://mytvsuper.ecword.cloudns.be/CF24
 绝版电影 600部,https://lunbo.freetv.top/yy/1382764593
-Discovery,https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-TH/discovery_4c6a08f0.m3u8
-HBO Signature,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbosig.m3u8
-DW,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV08.m3u8
 HBO,https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-TH/hbo_98dfb5f7.m3u8
 DW,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV08.m3u8
-HBO Family,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbofamily.m3u8
-HBO Signature,https://raw.githubusercontent.com/Semangat-Pagi/TEST/master/HBOSIGNew.m3u8
-HBO Hits,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbohits.m3u8
-CHC影迷电影,https://m3u-converter.mikephiemy.workers.dev/
-DW,http://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8
-龙华戏剧,http://cdn8.veryfast.filegear-sg.me/live/lhxj/stream.m3u8
-龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-龙华洋片,https://cdn8.163189.xyz/live/lhyp/stream.m3u8
-DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
-龙华经典,http://cdn8.veryfast.filegear-sg.me/live/lhjd/stream.m3u8
-龙华偶像,http://cdn8.veryfast.filegear-sg.me/live/lhox/stream.m3u8
-龙华洋片,https://cdn8.163189.xyz/live/lhyp/stream.m3u8
-CHC动作电影,https://m3u-converter.mikephiemy.workers.dev/
-龙华电影,http://cdn8.veryfast.filegear-sg.me/live/lhdy/stream.m3u8
-龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
-龙华洋片,http://cdn8.veryfast.filegear-sg.me/live/lhyp/stream.m3u8
-DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-DW,https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-龙华洋片,https://smart.pendy.dpdns.org/Smart.php
-HBO Comedy,http://143.244.60.30/HBO_COMEDY/index.m3u8
-Nickelodeon,http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+Discovery,https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-TH/discovery_4c6a08f0.m3u8
 HBO,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbo.m3u8
-Nickelodeon,http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-HBO,http://143.244.60.30/HBO/index.m3u8
-DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8
-CINEMAX,http://143.244.60.30/CINEMAX_EAST/index.m3u8
-CHC家庭影院,https://m3u-converter.mikephiemy.workers.dev/
-Nickelodeon,http://143.244.60.30/NICKELODEON/index.m3u8
-HBO Family,http://143.244.60.30/HBO_FAMILY/index.m3u8
-Animax,http://iptv.tvfix.org/hls/animax_v.m3u8
-HBO Comedy,http://fl1.moveonjoy.com/HBO_COMEDY/index.m3u8
-HBO Family,http://212.102.60.231/HBO_FAMILY/index.m3u8
-HBO,http://212.102.60.231/HBO/index.m3u8
-HBO,http://fl1.moveonjoy.com/HBO/index.m3u8
-HBO Family,http://fl1.moveonjoy.com/HBO_FAMILY/index.m3u8
-HBO Comedy,http://fortv.cc:8080/clarencekingrh@hotmail.com/pKgSdl4ZFX/17773
-Animax,http://iptv.tvfix.org/hls/animax.m3u8
-Nickelodeon,http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
-龍華日韓台,http://s1.an94tv.cfd/taiwan/CH-5/AKTV.m3u8
-美亞電影台(HK),http://s1.an94tv.cfd/aktv/hk/AKTV.m3u8
+HBO Family,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbofamily.m3u8
 DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
-CHC影迷电影,https://migu.188766.xyz/
+DW,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV08.m3u8
+DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+东森戏剧,http://live4play.uk/livehttpplay
+龙华电影,http://live4play.uk/livehttpplay
+东森电影,http://live4play.uk/livehttpplay
+靖天电影,http://live4play.uk/livehttpplay
+HBO,http://108.181.20.197/livehttpplay
+龙华洋片,https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+DW,http://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8
 CHC家庭影院,https://migu.188766.xyz/
-Discovery,http://iptv.tvfix.org/hls/discovery.m3u8
-龙华戏剧,https://cdn8.163189.xyz/live/lhxj/stream.m3u8
-好莱坞电影台,http://s1.an94tv.cfd/aktv2/CH-1/AKTV.m3u8
-Thrill,http://iptv.tvfix.org/hls/thrill.m3u8
-東森洋片,http://s1.an94tv.cfd/aktv2/CH-2/AKTV.m3u8
-tvN,http://iptv.tvfix.org/hls/tvn.m3u8
-AXN,http://s1.an94tv.cfd/aktv/axn/AKTV.m3u8
-东森电影,http://s1.an94tv.cfd/aktv2/CH-1/AKTV.m3u8
-天映经典,http://s1.an94tv.cfd/aktv/1080/AKTV.m3u8
+龙华偶像,http://cdn8.veryfast.filegear-sg.me/live/lhox/stream.m3u8
+DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 CHC动作电影,https://migu.188766.xyz/
-CHC家庭影院,https://migu.777189.xyz/
-龙华偶像,https://cdn8.163189.xyz/live/lhox/stream.m3u8
-CHC动作电影,https://migu.777189.xyz/
+BBC,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+CHC影迷电影,https://migu.188766.xyz/
+东森洋片台,http://pili-live-hdl.qhmywl.com:80/dsdtv/24b15906d2250c062c0f0b5339e166b2.m3u8
+Discovery,http://pili-live-hdl.qhmywl.com:80/dsdtv/ef2748398207873cae12b151ae78b0af.m3u8
+HBO Comedy,http://143.244.60.30/HBO_COMEDY/index.m3u8
+CINEMAX,http://143.244.60.30/CINEMAX_EAST/index.m3u8
+HBO,http://143.244.60.30/HBO/index.m3u8
+Nickelodeon,http://143.244.60.30/NICKELODEON/index.m3u8
+HBO Comedy,http://fl1.moveonjoy.com/HBO_COMEDY/index.m3u8
+AXN,http://s1.an94tv.cfd/aktv/axn/AKTV.m3u8
 Animax,http://s1.an94tv.cfd/aktv/animaxhk/AKTV.m3u8
 美亞電影台(HK),http://s1.an94tv.cfd/aktv/hk/AKTV.m3u8
-天映,http://s1.an94tv.cfd/aktv2/CH-3/AKTV.m3u8
-龍華日韓台,http://s1.an94tv.cfd/taiwan/CH-5/AKTV.m3u8
+天映经典,http://s1.an94tv.cfd/aktv/1080/AKTV.m3u8
+ROCK Action,http://s1.an94tv.cfd/aktv/rockaction/AKTV.m3u8
 天映,http://s1.an94tv.cfd/astro/celestialmovies/AKTV.m3u8
-tvN,http://s1.an94tv.cfd/aktv/tvn/AKTV.m3u8
-ROCK Action,http://s1.an94tv.cfd/aktv/rockaction/AKTV.m3u8
+Nickelodeon,http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+HBO Family,http://143.244.60.30/HBO_FAMILY/index.m3u8
 HITS,http://s1.an94tv.cfd/taiwan/hits/AKTV.m3u8
-HBO Family,http://190.11.225.124:5000/live/hbo_family_hd/playlist.m3u8
+东森电影,http://s1.an94tv.cfd/aktv2/CH-1/AKTV.m3u8
+龍華日韓台,http://s1.an94tv.cfd/taiwan/CH-5/AKTV.m3u8
 HITS,http://s1.an94tv.cfd/taiwan/hits/AKTV.m3u8
-AXN,http://181.78.106.127:9000/play/ca085/index.m3u8
-ROCK Action,http://s1.an94tv.cfd/aktv/rockaction/AKTV.m3u8
-Discovery Asia,https://tv.ddns.vn/tv/discoveryasiahd/index.m3u8
-AXN,http://181.78.106.127:9000/play/ca085/index.m3u8
-CINEMAX,http://181.78.106.127:9000/play/ca079/index.m3u8
-Nickelodeon,http://181.78.106.127:9000/play/ca052/index.m3u8
-Astro AEC,http://php.jdshipin.com/smt.php
-CHC影迷电影,https://migu.777189.xyz/
-Nickelodeon,http://181.78.106.127:9000/play/ca052/index.m3u8
-CINEMAX,http://181.78.106.127:9000/play/ca079/index.m3u8
 AXN,http://s1.an94tv.cfd/aktv/axn/AKTV.m3u8
-DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-HBO,http://108.181.20.197/livehttpplay
-东森戏剧,http://live4play.uk/livehttpplay
-Discovery,http://iptv.tvfix.org/hls/discovery_v.m3u8
-靖天电影,http://live4play.uk/livehttpplay
-东森电影,http://live4play.uk/livehttpplay
-龙华电影,http://live4play.uk/livehttpplay
-HBO Family,http://190.60.37.154:45000/play/a055/index.m3u8
-AXN,http://190.60.37.154:45000/play/a04n/index.m3u8
-HBO,http://190.60.37.154:45000/play/a056/index.m3u8
+tvN,http://s1.an94tv.cfd/aktv/tvn/AKTV.m3u8
+龍華日韓台,http://s1.an94tv.cfd/taiwan/CH-5/AKTV.m3u8
+好莱坞电影台,http://s1.an94tv.cfd/aktv2/CH-1/AKTV.m3u8
+天映,http://s1.an94tv.cfd/aktv2/CH-3/AKTV.m3u8
+美亞電影台(HK),http://s1.an94tv.cfd/aktv/hk/AKTV.m3u8
+ROCK Action,http://s1.an94tv.cfd/aktv/rockaction/AKTV.m3u8
+東森洋片,http://s1.an94tv.cfd/aktv2/CH-2/AKTV.m3u8
+HBO Signature,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbosig.m3u8
 ZooMoo,https://zoomoo-samsungau.amagi.tv/playlist.m3u8
-Nick Jr,http://190.60.37.154:45000/play/a04r/index.m3u8
-AXN,https://streamer1.nexgen.bz/AXN/index.m3u8
-Discovery,http://170.244.209.135:8000/play/a0dm/index.m3u8
-HBO,http://170.244.209.135:8000/play/a0cn/index.m3u8
-AXN,http://pili-live-hdl.qhmywl.com:80/dsdtv/c762110b3eef8bcccce5863643dd66aa.m3u8
-HBO,http://181.188.216.5:18000/play/a0hm/index.m3u8
-Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8
-AXN,http://212.102.38.45/live/test_axn/playlist.m3u8
-Nickelodeon,http://212.102.38.45/live/test_nickelodeon_hevc_25p/playlist.m3u8
-Animax,https://ca01.utako.moe/Animax/index.m3u8
-Discovery,http://212.102.38.45/live/test_discovery_hd_hevc/playlist.m3u8
-HBO,http://212.102.38.45/live/test_hbo_hd_hevc/playlist.m3u8
-龙华洋片,http://cdn8.veryfast.filegear-sg.me/live/lhyp/stream.m3u8
-Nick Jr,http://byfwmhqr.socminlt.com/iptv/5RW7A9NYWULCBQ/114/index.m3u8
-Nick Jr,http://creative.ucomist.net/iptv/4PR4397UCY3QPE/114/index.m3u8
-Nickelodeon,http://gsxootl6.tvclub.xyz/iptv/8PWHVNRUC8A89N/541/index.m3u8
-Nickelodeon,http://creative.ucomist.net/iptv/4PR4397UCY3QPE/541/index.m3u8
-AXN,http://200.60.124.19:29000/play/a027/index.m3u8
-Nickelodeon,http://200.60.124.19:29000/play/a01i/index.m3u8
-CHC动作电影,https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
-HBO,https://delivery.macan.live/stream/hbo/index.m3u8
-Nick Jr,http://rhsbjv7k.tvclub.xyz/iptv/Q3NWVFLXV7U6ZB/114/index.m3u8
-Nickelodeon,http://rhsbjv7k.tvclub.xyz/iptv/Q3NWVFLXV7U6ZB/541/index.m3u8
-Discovery,http://ott.watch/stream/E9LDH2ZCN7/177.m3u8
-Nickelodeon,http://cdnua06.hls.tv/476/hls/061df9d47a31d5ffeeee40bbf3333deb/280/stream.m3u8
-电影_变形金刚,https://www.goodiptv.club/huya/21059596
+AXN,http://tecnotv.xyz/tvmex/axn
+Nickelodeon,http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+HBO Hits,https://raw.githubusercontent.com/lupael/IPTV/master/channels/hbohits.m3u8
+Nickelodeon,http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+HBO,http://fl1.moveonjoy.com/HBO/index.m3u8
+HBO Family,http://fl1.moveonjoy.com/HBO_FAMILY/index.m3u8
+HBO Family,http://190.11.225.124:5000/live/hbo_family_hd/playlist.m3u8
+DW,https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+DW,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8
+HBO Signature,https://raw.githubusercontent.com/Semangat-Pagi/TEST/master/HBOSIGNew.m3u8
 AXN,https://delivery.macan.live/stream/id_axn/index.m3u8
-Nickelodeon,http://170.233.192.234:8112/play/014
+HBO,http://190.60.37.154:45000/play/a056/index.m3u8
+AXN,http://190.60.37.154:45000/play/a04n/index.m3u8
+Nick Jr,http://190.60.37.154:45000/play/a04r/index.m3u8
+HBO Family,http://190.60.37.154:45000/play/a055/index.m3u8
+Discovery,http://170.244.209.135:8000/play/a0dm/index.m3u8
+HBO,http://181.188.216.5:18000/play/a0hm/index.m3u8
+HBO,http://170.244.209.135:8000/play/a0cn/index.m3u8
+经典电影,https://mursor.ottiptv.cc/bilibili/1777481601
 Discovery Asia,https://delivery.macan.live/stream/id_discoveryasia/index.m3u8
-龙华偶像,https://cdn8.163189.xyz/live/lhox/stream.m3u8
-AXN,http://170.233.192.234:8112/play/087
-Nick Jr,http://158.160.149.81:8080/520/tracks-v1a2/mono.m3u8
-HBO Signature,http://143.0.67.77:8000/play/a02c/index.m3u8
-Nick Jr,http://143.0.67.77:8000/play/a06u/index.m3u8
-Nickelodeon,http://143.0.67.77:8000/play/a04z/index.m3u8
-BBC,http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6854/index.m3u8
-Nickelodeon,http://ixjk6nfs.rostelekom.xyz/iptv/ELVNTKK2RLGGKX/541/index.m3u8
-动作电影,https://www.goodiptv.club/douyu/6763930
-Nickelodeon,http://01d742e3.ottrast.com/iptv/Q5MK5AD8A8ZBUA/541/index.m3u8
-ZooMoo,https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
-Nick Jr,http://01d742e3.ottrast.com/iptv/Q5MK5AD8A8ZBUA/114/index.m3u8
-Nickelodeon,http://31.148.48.15:80/Nickelodeon/index.m3u8
+CHC动作电影,https://mursor.ottiptv.cc/migu/644368714.m3u8
+AXN,http://181.188.234.21:8000/play/a04h
 影迷數位電影台,http://xn--elt51t.azip.dpdns.org:5008/li-4gtv-4gtv011/index.m3u8
-ROCK Action,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live138/index.m3u8
-影迷數位電影台,http://xn--elt51t.azip.dpdns.org:5008/4gtv-4gtv011/index.m3u8
-Nickelodeon,http://31.148.48.15/Nickelodeon/index.m3u8
-Discovery,http://61.221.215.25:8800/hls/1/index.m3u8
-Nickelodeon,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live105/index.m3u8
+HBO Family,http://hidra.live:80/eufTQNgNXv/ojxBLcjY/302667
 CI 罪案偵查頻道,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live027/index.m3u8
-HITS,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live620/index.m3u8
+Nickelodeon,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live105/index.m3u8
+AXN,https://streamer1.nexgen.bz/AXN/index.m3u8
+ROCK Action,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live138/index.m3u8
+DW,http://61.221.215.25:8800/hls/1/index.m3u8
+DW,http://61.221.215.25:8800/hls/1/index.m3u8
+Discovery,http://61.221.215.25:8800/hls/1/index.m3u8
 龙华洋片,http://xn--elt51t.azip.dpdns.org:5008/li-litv-longturn02/index.m3u8
-Nickelodeon,http://31.148.48.15/Nickelodeon/index.m3u8
-DW,http://61.221.215.25:8800/hls/1/index.m3u8
-DW,http://61.221.215.25:8800/hls/1/index.m3u8
+HBO,https://delivery.macan.live/stream/hbo/index.m3u8
+Discovery,http://ott.watch/stream/E9LDH2ZCN7/177.m3u8
+HITS,http://xn--elt51t.azip.dpdns.org:5008/4gtv-live620/index.m3u8
+龙华洋片,http://cdn8.veryfast.filegear-sg.me/live/lhyp/stream.m3u8
 Animax,http://46.203.125.177:20005/live/animax/index.m3u8
-龙华电影,http://46.203.125.177:20009/live/lhdy/stream.m3u8
+Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8
+Animax,https://delivery.macan.live/stream/id_animax/index.m3u8
 龙华洋片,http://46.203.125.177:20009/live/lhyp/stream.m3u8
-龙华戏剧,http://46.203.125.177:20009/live/lhxj/stream.m3u8
+HBO Comedy,http://fortv.cc:8080/clarencekingrh@hotmail.com/pKgSdl4ZFX/17773
 龙华偶像,http://46.203.125.177:20009/live/lhox/stream.m3u8
 龙华经典,http://46.203.125.177:20009/live/lhjd/stream.m3u8
-经典电影,https://lunbo.freetv.top/yy/1355142167
-CHC家庭影院,https://mursor.ottiptv.cc/migu/644368373.m3u8
-BBC,https://plbl.m9.lfstrm.tv/detskij_mir/normal/1/index.m3u8
-CHC影迷电影,https://www.freetv.top/migu/952383261.m3u8
-Dmax,https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
-澳门莲花,http://8.138.7.223/tv/lotustv.m3u8
-AXN,http://210.210.155.66/h/h141/02.m3u8
-CHC影迷电影,http://113.195.172.192:808/hls/112/index.m3u8
-CHC家庭影院,http://113.195.172.192:808/hls/113/index.m3u8
-CHC动作电影,http://api2.52tb.xyz/info
-CHC动作电影,https://www.freetv.top/migu/644368714.m3u8
-环球电视台,http://utv1.hqtvzb.com:9999/hls/world.m3u8
-CHC影迷电影,http://113.195.172.192:808/hls/112/index.m3u8
-CHC家庭影院,http://113.195.172.192:808/hls/113/index.m3u8
-CHC动作电影,http://113.195.172.192:808/hls/114/index.m3u8
-CHC动作电影,http://113.195.172.192:808/hls/114/index.m3u8
-CHC家庭影院,http://api2.52tb.xyz/info
-经典电影,http://api2.52tb.xyz/info
-CHC家庭影院,http://58.19.252.68:1111/tsfile/live/1036_1.m3u8
-经典电影,http://58.19.43.46:9901/tsfile/live/1012_1.m3u8
-CHC动作电影,http://218.15.183.23:9901/tsfile/live/23039_1.m3u8
-CHC家庭影院,http://42.227.89.126:9003/hls/61/index.m3u8
-影迷數位電影台,http://docker.livednow.dpdns.org/li-4gtv-4gtv011/index.m3u8
-CHC动作电影,http://120.238.94.82:9901/tsfile/live/1052_1.m3u8
-Discovery,http://125hvt.ddns.net:21585/discovery/index.m3u8
-CHC家庭影院,http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8
-CHC动作电影,http://120.198.101.106:9901/tsfile/live/1052_1.m3u8
-HBO,http://125hvt.ddns.net:21585/hbo/index.m3u8
-CHC家庭影院,http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8
-黑莓电影,http://111.43.126.240:9003/hls/99/index.m3u8
-CHC家庭影院,http://120.198.101.106:9901/tsfile/live/1051_1.m3u8
-龙华洋片,http://xn--elt51t.azip.dpdns.org:5008/litv-longturn02/index.m3u8
+龙华戏剧,http://46.203.125.177:20009/live/lhxj/stream.m3u8
+龙华电影,http://46.203.125.177:20009/live/lhdy/stream.m3u8
+龙华电影,http://cdn8.veryfast.filegear-sg.me/live/lhdy/stream.m3u8
+龙华洋片,http://cdn8.veryfast.filegear-sg.me/live/lhyp/stream.m3u8
+Nickelodeon,http://200.60.124.19:29000/play/a01i/index.m3u8
+HBO,http://212.102.38.45/live/test_hbo_hd_hevc/playlist.m3u8
+AXN,http://212.102.38.45/live/test_axn/playlist.m3u8
+Discovery,http://212.102.38.45/live/test_discovery_hd_hevc/playlist.m3u8
+Nickelodeon,http://212.102.38.45/live/test_nickelodeon_hevc_25p/playlist.m3u8
+Animax,https://ca01.utako.moe/Animax/index.m3u8
+CHC动作电影,https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
+AXN,http://200.60.124.19:29000/play/a027/index.m3u8
 CHC家庭影院,https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8
-Nickelodeon,http://docker.livednow.dpdns.org/4gtv-live105/index.m3u8
-影迷數位電影台,http://docker.livednow.dpdns.org/4gtv-4gtv011/index.m3u8
-CHC家庭影院,http://60.16.18.243:4949/hls/29/index.m3u8
-CHC影迷电影,http://117.141.162.238:8181/tsfile/live/0006_1.m3u8
-龙华洋片,http://docker.livednow.dpdns.org/litv-longturn02/index.m3u8
-NewTV超级电影,https://cloudvideo.servers10.com:8081/8130/index.m3u8
-CHC动作电影,http://aiony.top:35455/mgtv/644368373.m3u8
-CHC家庭影院,http://aiony.top:35455/mgtv/644368714.m3u8
-CHC影迷电影,http://124.93.18.238:9002/hls/77/index.m3u8
-ROCK Action,http://docker.livednow.dpdns.org/4gtv-live138/index.m3u8
-CHC家庭影院,http://124.93.18.238:9002/hls/78/index.m3u8
-CHC动作电影,http://124.93.18.238:9002/hls/76/index.m3u8
-CHC动作电影,https://mursor.ottiptv.cc/migu/644368714.m3u8
-AXN,http://home-playtv.com:8080/ArianLatino/EEtduxpDYqNh/439779
-倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
-HBO,https://s8.sky4k.top/stream/astro/hbo/master.m3u8
-HBO,https://tvpass.org/live/HBOEast/sd
-CHC家庭影院,https://www.freetv.top/migu/644368373.m3u8
-CI 罪案偵查頻道,http://docker.livednow.dpdns.org/4gtv-live027/index.m3u8
-CHC动作电影,http://211.149.143.188:88/
-CHC家庭影院,http://211.149.143.188:88/
-超级电影,http://111.43.126.240:9003/hls/85/index.m3u8
-电影_推荐,https://www.goodiptv.club/huya/11602041
-周星驰,https://live.metshop.top/huya/11342424
-电影_蜘蛛侠,https://www.goodiptv.club/huya/21059599
-电影_赛车,https://www.goodiptv.club/huya/11279247
-黑莓电影,http://36.105.100.208:35455/itv/1000000004000019624.m3u8
-电影_赛车,https://live.metshop.top/huya/11279247
-CHC动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
-动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
-动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
-超级电影,http://111.43.126.240:9003/hls/85/index.m3u8
-黑莓电影,http://111.43.126.240:9003/hls/99/index.m3u8
-NewTV惊悚悬疑,http://111.43.126.240:9003/hls/77/index.m3u8
-NewTV动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
-环球电视台,http://live-cdn.xzxwhcb.com/hls/sn88wrar.m3u8
-AXN,https://live.tvfix.org/live/axn/index.m3u8
+HBO,http://tv.teleclub.xyz/club/server_2/entretenimiento/hbo/index.m3u8
+HBO Family,http://tv.teleclub.xyz/club/server_2/entretenimiento/hbofamily/index.m3u8
+Nickelodeon,http://cdnua06.hls.tv/476/hls/061df9d47a31d5ffeeee40bbf3333deb/280/stream.m3u8
+AXN,http://tv.teleclub.xyz/club/server_2/entretenimiento/axn/index.m3u8
+AXN,http://170.233.192.234:8112/play/087
+Nickelodeon,http://170.233.192.234:8112/play/014
 CHC家庭影院,http://api3.52tb.xyz/info
-周星驰,https://www.goodiptv.club/douyu/122402
-倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
-CHC动作电影,http://183.237.95.108:9901/tsfile/live/1006_1.m3u8
-CHC动作电影,http://api3.52tb.xyz/info
-CHC家庭影院,http://atcq62.3950.cn:35455/mgtv/644368373.m3u8
-龙华洋片,http://docker.livednow.dpdns.org/li-litv-longturn02/index.m3u8
-CHC影迷电影,http://aiony.top:35455/mgtv/952383261.m3u8
-环球电视台,http://live-cdn.xzxwhcb.com/hls/r86am856.m3u8
+澳门莲花,http://8.138.7.223/tv/lotustv.m3u8
+ZooMoo,https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
 CHC动作电影,http://atcq62.3950.cn:35455/mgtv/644368714.m3u8
-DW,http://serv8.iptv11.com:8080/2561/video.m3u8
-Animax,https://delivery.macan.live/stream/id_animax/index.m3u8
-龙华戏剧,https://cdn3.132.us.kg/live/lhxj/stream.m3u8
-天映经典,https://live.tvfix.org/live/tyjd/1/v1000000/index.m3u8
-ZooMoo,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
-电影_推荐,https://live.metshop.top/huya/11602041
-东森电影,http://mytv.cdn.com.mp/live/dsdy/stream.m3u8
-AXN,https://kool.to/play/2230270105/index.m3u8
-Animax,https://live.tvfix.org/live/animax/index.m3u8
-龙门飞甲,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
-经典电影,https://www.goodiptv.club/huya/21384538
-经典电影,http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
-CHC影迷电影,http://atcq62.3950.cn:35455/mgtv/952383261.m3u8
-倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
-DW,https://smart.pendy.dpdns.org/Smart.php
-倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
-DW,https://kool.to/play/3047039556/index.m3u8
-倩女幽魂人间道,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
-东森电影,http://mytv.cdn.com.mp/live/dsdy/stream.m3u8
-家庭影院,http://ygbh.site/php/bfgd.php
-龙华电影,https://cdn3.132.us.kg/live/lhdy/stream.m3u8
-美亞電影台(HK),https://live.tvfix.org/live/mydy/1/v4000000/index.m3u8
-黑莓电影,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221227448/index.m3u8
+CHC家庭影院,http://113.195.172.192:808/hls/113/index.m3u8
+CHC动作电影,http://113.195.172.192:808/hls/114/index.m3u8
+AXN,http://210.210.155.66/h/h141/02.m3u8
+Discovery Asia,http://pili-live-hdl.qhmywl.com:80/dsdtv/f325e0ce8ddf55c2df916b6f2bc0e07c.m3u8
+HBO Signature,http://tv.teleclub.xyz/club/server_2/entretenimiento/hbosignature/index.m3u8
+CHC家庭影院,http://113.195.172.192:808/hls/113/index.m3u8
+龙华经典,http://cdn8.veryfast.filegear-sg.me/live/lhjd/stream.m3u8
+CHC影迷电影,http://113.195.172.192:808/hls/112/index.m3u8
+CHC影迷电影,http://113.195.172.192:808/hls/112/index.m3u8
+Discovery,http://125hvt.ddns.net:21585/discovery/index.m3u8
+经典电影,http://58.19.43.46:9901/tsfile/live/1012_1.m3u8
+CHC家庭影院,http://api2.52tb.xyz/info
+CHC动作电影,http://api3.52tb.xyz/info
+龙华洋片,http://xn--elt51t.azip.dpdns.org:5008/litv-longturn02/index.m3u8
+Nick Jr,http://143.0.67.77:8000/play/a06u/index.m3u8
+HBO Signature,http://143.0.67.77:8000/play/a02c/index.m3u8
+HBO,http://125hvt.ddns.net:21585/hbo/index.m3u8
+CHC动作电影,http://api2.52tb.xyz/info
+CHC动作电影,http://113.195.172.192:808/hls/114/index.m3u8
+CHC家庭影院,http://58.19.252.68:1111/tsfile/live/1036_1.m3u8
+Nick Jr,http://158.160.149.81:8080/520/tracks-v1a2/mono.m3u8
+CHC家庭影院,http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8
+Nickelodeon,http://01d742e3.ottrast.com/iptv/Q5MK5AD8A8ZBUA/541/index.m3u8
+CHC家庭影院,http://42.227.89.126:9003/hls/61/index.m3u8
+Nickelodeon,http://31.148.48.15/Nickelodeon/index.m3u8
+Nickelodeon,http://31.148.48.15:80/Nickelodeon/index.m3u8
 Nick Jr,http://gsxootl6.tvclub.xyz/iptv/8PWHVNRUC8A89N/114/index.m3u8
-Discovery,http://mytv.cdn.com.mp/live/d/stream.m3u8
+CHC动作电影,http://218.15.183.23:9901/tsfile/live/23039_1.m3u8
+Nickelodeon,http://31.148.48.15/Nickelodeon/index.m3u8
+Nickelodeon,http://gsxootl6.tvclub.xyz/iptv/8PWHVNRUC8A89N/541/index.m3u8
+Nick Jr,http://rhsbjv7k.tvclub.xyz/iptv/Q3NWVFLXV7U6ZB/114/index.m3u8
+CHC家庭影院,http://aiony.top:35455/mgtv/644368714.m3u8
+Nickelodeon,http://ixjk6nfs.rostelekom.xyz/iptv/ELVNTKK2RLGGKX/541/index.m3u8
+CHC家庭影院,http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8
+CHC动作电影,http://aiony.top:35455/mgtv/644368373.m3u8
+CHC影迷电影,http://aiony.top:35455/mgtv/952383261.m3u8
+倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
+Nickelodeon,http://rhsbjv7k.tvclub.xyz/iptv/Q3NWVFLXV7U6ZB/541/index.m3u8
+CHC家庭影院,http://60.16.18.243:4949/hls/29/index.m3u8
+CHC动作电影,http://120.238.94.82:9901/tsfile/live/1052_1.m3u8
+CHC影迷电影,http://117.141.162.238:8181/tsfile/live/0006_1.m3u8
+Nick Jr,http://01d742e3.ottrast.com/iptv/Q5MK5AD8A8ZBUA/114/index.m3u8
+CHC家庭影院,http://124.93.18.238:9002/hls/78/index.m3u8
+CHC影迷电影,https://m3u-converter.mikephiemy.workers.dev/
+DW,https://smart.pendy.dpdns.org/Smart.php
+龙华偶像,https://cdn8.163189.xyz/live/lhox/stream.m3u8
+龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+龙华戏剧,https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+龙华戏剧,http://cdn8.veryfast.filegear-sg.me/live/lhxj/stream.m3u8
+龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+龙华洋片,https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+CHC动作电影,https://m3u-converter.mikephiemy.workers.dev/
+CHC动作电影,http://124.93.18.238:9002/hls/76/index.m3u8
+CHC家庭影院,https://m3u-converter.mikephiemy.workers.dev/
+龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+CHC家庭影院,https://www.freetv.top/migu/644368373.m3u8
+HBO,https://s8.sky4k.top/stream/astro/hbo/master.m3u8
+HBO Signature,http://pili-live-hdl.qhmywl.com:80/dsdtv/fcdd3a3c591bdd0b07a17a92cb555cc1.m3u8
+Thrill,http://iptv.tvfix.org/hls/thrill.m3u8
+Nickelodeon,http://143.0.67.77:8000/play/a04z/index.m3u8
+CHC家庭影院,https://migu.777189.xyz/
+动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
+影迷數位電影台,http://xn--elt51t.azip.dpdns.org:5008/4gtv-4gtv011/index.m3u8
+CHC动作电影,https://migu.777189.xyz/
+黑莓电影,http://36.105.100.208:35455/itv/1000000004000019624.m3u8
+黑莓电影,http://111.43.126.240:9003/hls/99/index.m3u8
+ZooMoo,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
+天映经典,https://live.tvfix.org/live/tyjd/1/v1000000/index.m3u8
+CHC动作电影,http://211.149.143.188:88/
+经典电影,https://lunbo.freetv.top/yy/1355142167
+Animax,https://live.tvfix.org/live/animax/index.m3u8
+超级电影,http://111.43.126.240:9003/hls/85/index.m3u8
+美亞電影台(HK),https://live.tvfix.org/live/mydy/1/v4000000/index.m3u8
+黑莓电影,http://111.43.126.240:9003/hls/99/index.m3u8
+BBC,https://plbl.m9.lfstrm.tv/detskij_mir/normal/1/index.m3u8
+倩女幽魂人间道,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
+CHC影迷电影,http://124.93.18.238:9002/hls/77/index.m3u8
+Dmax,https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
+环球电视台,http://utv1.hqtvzb.com:9999/hls/world.m3u8
+动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
+CHC动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
+超级电影,http://111.43.126.240:9003/hls/85/index.m3u8
+NewTV动作电影,http://111.43.126.240:9003/hls/75/index.m3u8
+CHC动作电影,http://183.237.95.108:9901/tsfile/live/1006_1.m3u8
+龙华偶像,https://cdn8.163189.xyz/live/lhox/stream.m3u8
+BBC,http://103c2d6f.rossteleccom.net/iptv/KB5PNQ23HKZLMX/6854/index.m3u8
+CHC影迷电影,https://www.freetv.top/migu/952383261.m3u8
+环球电视台,http://live-cdn.xzxwhcb.com/hls/sn88wrar.m3u8
+倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
+环球电视台,http://live-cdn.xzxwhcb.com/hls/r86am856.m3u8
+Astro AEC,http://php.jdshipin.com/smt.php
+AXN,http://home-playtv.com:8080/ArianLatino/EEtduxpDYqNh/439779
+影迷數位電影台,http://docker.livednow.dpdns.org/4gtv-4gtv011/index.m3u8
+龙华洋片,http://docker.livednow.dpdns.org/li-litv-longturn02/index.m3u8
+Nickelodeon,http://docker.livednow.dpdns.org/4gtv-live105/index.m3u8
+经典电影,http://api2.52tb.xyz/info
+CHC动作电影,http://itv.ahau.edu.cn/hls/chcatv.m3u8
+ROCK Action,http://docker.livednow.dpdns.org/4gtv-live138/index.m3u8
+倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
+CHC家庭影院,http://itv.ahau.edu.cn/hls/chctv.m3u8
+CHC影迷电影,http://atcq62.3950.cn:35455/mgtv/952383261.m3u8
+动作电影,https://www.goodiptv.club/douyu/6763930
+Discovery,http://iptv.tvfix.org/hls/discovery.m3u8
+CHC动作电影,https://www.freetv.top/migu/644368714.m3u8
+tvN,http://iptv.tvfix.org/hls/tvn.m3u8
+人在囧途,http://jsmov2.a.yximgs.com/bs3/video-hls/5239093847755471351_hlsb.m3u8
+Animax,http://iptv.tvfix.org/hls/animax.m3u8
+黑莓电影,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221227448/index.m3u8
+Discovery,http://iptv.tvfix.org/hls/discovery_v.m3u8
+Animax,http://iptv.tvfix.org/hls/animax_v.m3u8
+NewTV超级电影,https://cloudvideo.servers10.com:8081/8130/index.m3u8
+HBO,http://212.102.60.231/HBO/index.m3u8
+经典电影,http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
+龙门飞甲,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
+CHC家庭影院,http://atcq62.3950.cn:35455/mgtv/644368373.m3u8
+倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
+影迷數位電影台,http://docker.livednow.dpdns.org/li-4gtv-4gtv011/index.m3u8
+Discovery Asia,https://tv.ddns.vn/tv/discoveryasiahd/index.m3u8
+周星驰,https://www.goodiptv.club/douyu/122402
+家庭影院,http://ygbh.site/php/bfgd.php
+AXN,https://live.tvfix.org/live/axn/index.m3u8
+CHC影迷电影,https://migu.777189.xyz/
+电影_变形金刚,https://www.goodiptv.club/huya/21059596
+电影_推荐,https://www.goodiptv.club/huya/11602041
+电影_赛车,https://www.goodiptv.club/huya/11279247
 周星驰,http://cfss.cc/cdn/hy/11336587.flv
+CI 罪案偵查頻道,http://docker.livednow.dpdns.org/4gtv-live027/index.m3u8
+CHC家庭影院,http://211.149.143.188:88/
+HBO,https://tvpass.org/live/HBOEast/sd
+AXN,https://vcdnjt.useetv.com:443/joss/15/axn/chunklist_w1332206438_b684100_sleng_177560.m3u8
+CHC动作电影,https://cqcb.iptv.darwinchow.com/chcdzdyHD
+DW,http://serv8.iptv11.com:8080/2561/video.m3u8
+NewTV动作电影,http://43.138.0.72:35455/yy/1382736823
 HBO,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/210.m3u8
 HBO Signature,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/873.m3u8
-靖天电影,http://zb.xmzb.xyz/123b.php
+HBO,https://kool.to/play/2835333795/index.m3u8
 AXN,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/9.m3u8
+Nick Jr,http://creative.ucomist.net/iptv/4PR4397UCY3QPE/114/index.m3u8
+CHC家庭影院,https://cqcb.iptv.darwinchow.com/chcjtyyHD
 HBO Hits,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/591.m3u8
-NewTV动作电影,http://43.138.0.72:35455/yy/1382736823
-超燃科幻大片：明日边缘,https://lunbo.freetv.top/yy/1382736835
-Nickelodeon,http://mytv.27481716.xyz/mytvsuper/CNIKO
-HBO Signature,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/1498.m3u8
-tvN,http://mytv.27481716.xyz/mytvsuper/CJTV
+DW,https://kool.to/play/3047039556/index.m3u8
+HBO,https://vavoo.to/play/2835333795/index.m3u8
+HBO Family,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/592.m3u8
+龙华洋片,https://smart.pendy.dpdns.org/Smart.php
+电影_蜘蛛侠,https://www.goodiptv.club/huya/21059599
+周星驰,https://live.metshop.top/huya/11342424
+电影_推荐,https://live.metshop.top/huya/11602041
+靖天电影,http://zb.xmzb.xyz/123b.php
+电影_赛车,https://live.metshop.top/huya/11279247
 龙华电影,http://zb.xmzb.xyz/123b.php
-ROCK Action,http://mytv.27481716.xyz/mytvsuper/CRTX
-Nickelodeon,https://mytvsuper.ecword.cloudns.be/CNIKO
-DW,https://mytvsuper.ecword.cloudns.be/CDW1
+Thrill,http://mytv.27481716.xyz/mytvsuper/CTHR
+tvN,http://mytv.27481716.xyz/mytvsuper/CJTV
+NewTV惊悚悬疑,http://111.43.126.240:9003/hls/77/index.m3u8
+CHC动作电影,http://120.198.101.106:9901/tsfile/live/1052_1.m3u8
+龙华电影,https://cdn3.132.us.kg/live/lhdy/stream.m3u8
+AXN,http://mytv.27481716.xyz/mytvsuper/CAXN
+CHC家庭影院,http://120.198.101.106:9901/tsfile/live/1051_1.m3u8
+Nickelodeon,http://mytv.27481716.xyz/mytvsuper/CNIKO
+Thrill,https://mytvsuper.ecword.cloudns.be/CTHR
+电影_变形金刚,http://cfss.cc/cdn/hy/21059596.flv
 Animax,https://mytvsuper.ecword.cloudns.be/CANI
 AXN,https://mytvsuper.ecword.cloudns.be/CAXN
-東方衛視國際頻道,https://mytvsuper.ecword.cloudns.be/DTV
-ROCK Action,https://mytvsuper.ecword.cloudns.be/CRTX
-KIX,https://mytvsuper.ecword.cloudns.be/CKIX
-tvN,https://mytvsuper.ecword.cloudns.be/CJTV
-ZooMoo,https://mytvsuper.ecword.cloudns.be/ZOO
-龙门飞甲,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
+东森电影,http://mytv.cdn.com.mp/live/dsdy/stream.m3u8
+东森电影,http://mytv.cdn.com.mp/live/dsdy/stream.m3u8
+HBO Family,http://212.102.60.231/HBO_FAMILY/index.m3u8
+ZooMoo,http://mytv.27481716.xyz/mytvsuper/ZOO
+龙华戏剧,https://cdn3.132.us.kg/live/lhxj/stream.m3u8
+東方衛視國際頻道,http://mytv.27481716.xyz/mytvsuper/DTV
+Discovery,http://mytv.cdn.com.mp/live/d/stream.m3u8
 Animax,http://mytv.27481716.xyz/mytvsuper/CANI
-AXN,https://vcdnjt.useetv.com:443/joss/15/axn/chunklist_w1332206438_b684100_sleng_177560.m3u8
+HBO Hits,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/11492.m3u8
+HBO,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/1496.m3u8
 Rock Action,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/1506.m3u8
+HBO Signature,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/1498.m3u8
+HBO Family,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/30184.m3u8
 HITS Movies,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/99.m3u8
 Animax,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/3.m3u8
-HBO Family,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/592.m3u8
-HBO Family,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/30184.m3u8
-HBO,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/1496.m3u8
-HBO Hits,https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/11492.m3u8
-CHC动作电影,https://cqcb.iptv.darwinchow.com/chcdzdyHD
-Thrill,http://mytv.27481716.xyz/mytvsuper/CTHR
-CHC家庭影院,https://cqcb.iptv.darwinchow.com/chcjtyyHD
+ROCK Action,https://mytvsuper.ecword.cloudns.be/CRTX
+KIX,https://mytvsuper.ecword.cloudns.be/CKIX
+東方衛視國際頻道,https://mytvsuper.ecword.cloudns.be/DTV
+DW,https://mytvsuper.ecword.cloudns.be/CDW1
+ZooMoo,https://mytvsuper.ecword.cloudns.be/ZOO
 Nick Jr,https://mytvsuper.ecword.cloudns.be/CNIJR
-KIX,http://mytv.27481716.xyz/mytvsuper/CKIX
-动作电影,http://1b6467f415.iok.la:9931/tsfile/live/1047_1.m3u8
-無線衛星新聞台,http://mytv.27481716.xyz/mytvsuper/CTSN
+Nickelodeon,https://mytvsuper.ecword.cloudns.be/CNIKO
+tvN,https://mytvsuper.ecword.cloudns.be/CJTV
+天映,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
+超燃科幻大片：明日边缘,https://lunbo.freetv.top/yy/1382736835
 倩女幽魂人间道,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
-人在囧途,http://jsmov2.a.yximgs.com/bs3/video-hls/5239093847755471351_hlsb.m3u8
-电影_变形金刚,http://cfss.cc/cdn/hy/21059596.flv
+龙门飞甲,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
+东森电影,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
